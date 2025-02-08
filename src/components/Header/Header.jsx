@@ -1,32 +1,42 @@
 import "./Header.scss";
-import MailIcon from '@mui/icons-material/Mail';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import SmartphoneIcon from '@mui/icons-material/Smartphone';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailIcon from "@mui/icons-material/Mail";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import SmartphoneIcon from "@mui/icons-material/Smartphone";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import profile from "../../constants/data/profile.json";
 
 export function Header() {
+  const {
+    email,
+    fullName,
+    jobDesignation,
+    jobTitle,
+    linkedIn,
+    location,
+    phone,
+  } = profile;
   return (
     <section className="header-container">
-      <h1>Arulmaran Gunasekaran</h1>
+      <h1>{fullName}</h1>
       <span className="desgination">
-        Full Stack Developer | Senior Technical Lead
+        {jobTitle} | {jobDesignation}
       </span>
       <div className="contact-list">
         <a href="">
           <MailIcon />
-          iam.arulmaran@gmail.com
+          {email}
         </a>
         <a href="">
           <SmartphoneIcon />
-          +91 9821070180
+          {phone}
         </a>
         <a href="">
           <LocationOnIcon />
-          Karaikal
+          {location}
         </a>
-        <a href="">
+        <a href={linkedIn.link}>
           <LinkedInIcon />
-          in/arulmaran
+          {linkedIn.name}
         </a>
       </div>
     </section>

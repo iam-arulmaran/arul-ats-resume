@@ -8,14 +8,17 @@ import { List } from "../../util-components/List/List";
 const RenderExperience = ({ companyDetails = experienceDetails }) => {
   return companyDetails.map((exp, index) => {
     return (
-      <>
-        <div className="sub-heading" key={`${exp.companyName}-${index}`}>
+      <div
+        className="experience-wrapper"
+        key={`${exp.companyName.replace(/\s/g, "")}-${index}`}
+      >
+        <div className="sub-heading">
           {exp.companyName} |<span className="light">{exp.desigination}</span>
           <span className="right">{exp.period}</span>
         </div>
-        <span className="location">{exp.location}</span>
+        {/* <span className="location">{exp.location}</span> */}
         <RenderWorks works={exp.works} />
-      </>
+      </div>
     );
   });
 };
@@ -23,10 +26,10 @@ const RenderExperience = ({ companyDetails = experienceDetails }) => {
 const RenderWorks = ({ works = [] }) => {
   return works.map((work) => {
     return (
-      <>
-        <span>{work.type}</span>
-        <List data={work.detailLists} />
-      </>
+      <div className="work-list" key={work.type}>
+        <div className="sub-heading">{work.type}</div>
+        <List data={work.detailLists} listClass="list" />
+      </div>
     );
   });
 };

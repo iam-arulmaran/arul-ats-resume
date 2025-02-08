@@ -2,38 +2,26 @@ import { HEADINGS } from "../../constants/common";
 import { Section } from "../../util-components/Section/Section";
 import { SectionHeading } from "../../util-components/SectionHeading/SectionHeading";
 import "./Skills.scss";
+import skillsData from "../../constants/data/skills.json";
+
+const RenderSkills = ({ skillList = [] }) => {
+  return (
+    <div className="skill-list">
+      {skillList.map((skill) => {
+        return <span key={skill}>{skill}</span>;
+      })}
+    </div>
+  );
+};
 
 export function Skills() {
   return (
-    <Section>
+    <Section keyValue="skills">
       <SectionHeading title={HEADINGS.SKILLS} />
       <div className="sub-heading">Proficient</div>
-      <div className="skill-list">
-        <span>React</span>
-        <span>Angular</span>
-        <span>NodeJs</span>
-        <span>Javascript</span>
-        <span>Typescript</span>
-        <span>RxJs</span>
-        <span>Redux</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Git</span>
-        <span>Bitbucket</span>
-        <span>REST API</span>
-        <span>Agile development</span>
-        <span>Adobe creative cloud</span>
-      </div>
+      <RenderSkills skillList={skillsData.pro} />
       <div className="sub-heading">Familiar</div>
-      <div className="skill-list">
-        <span>AWS Services</span>
-        <span>SQL</span>
-        <span>MongoDB</span>
-        <span>Java</span>
-        <span>Flutter</span>
-        <span>Firebase console</span>
-        <span>Google console</span>
-      </div>
+      <RenderSkills skillList={skillsData.familiar} />
     </Section>
   );
 }

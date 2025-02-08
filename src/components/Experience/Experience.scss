@@ -2,3 +2,32 @@
     font-weight: 300;
     font-size: 1rem;
 }
+
+.work-list {
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin: 0.5rem 0;
+        display: flex;
+        column-gap: 10px;
+    }
+}
+
+.list-wrapper {
+    .list {
+        position: relative;
+        padding-left: 1rem;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 6px;
+            background-color: #766d6d;
+            left: 0;
+            top: 12px;
+            position: absolute;
+            border-radius: 6px;
+        }
+    }
+}

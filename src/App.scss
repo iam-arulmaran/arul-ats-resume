@@ -3,11 +3,9 @@
   justify-content: center;
 }
 
-button {}
-
 .parent-container {
   width: 1240px;
-  height: 1754px;
+  min-height: 1754px;
   padding: 3rem;
   display: flex;
   background: #fff;

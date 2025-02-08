@@ -10,13 +10,13 @@ import { Summary } from "./components/Summary/Summary";
 function App() {
   return (
     <main className="parent-container">
-      <Header />
-      <Summary />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-      <Certification />
+      <Header key="header" />
+      <Summary key="summary" />
+      <Skills key="skills" />
+      <Experience key="experience" />
+      <Projects key="projects" />
+      <Education key="education" />
+      <Certification key="certification" />
     </main>
   );
 }

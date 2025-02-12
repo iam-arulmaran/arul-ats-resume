@@ -1,0 +1,960 @@
+<html lang="en">
+
+<head>
+    <meta name="emotion-insertion-point" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&amp;display=swap"
+        rel="stylesheet">
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/index.scss">
+        :root {
+            font-family: "Roboto", "Open Sans" !important;
+            line-height: 1.5;
+            font-weight: 400;
+            background-color: #e9e9e9;
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            --primary: #333;
+            --highlighter: #145187;
+            --border: #999999;
+            --ten-px: 0.625rem;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/node_modules/normalize.css/normalize.css">
+        /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+        /* Document
+   ========================================================================== */
+
+        /**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+        html {
+            line-height: 1.15;
+            /* 1 */
+            -webkit-text-size-adjust: 100%;
+            /* 2 */
+        }
+
+        /* Sections
+   ========================================================================== */
+
+        /**
+ * Remove the margin in all browsers.
+ */
+
+        body {
+            margin: 0;
+        }
+
+        /**
+ * Render the `main` element consistently in IE.
+ */
+
+        main {
+            display: block;
+        }
+
+        /**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+        h1 {
+            font-size: 2em;
+            margin: 0.67em 0;
+        }
+
+        /* Grouping content
+   ========================================================================== */
+
+        /**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+        hr {
+            box-sizing: content-box;
+            /* 1 */
+            height: 0;
+            /* 1 */
+            overflow: visible;
+            /* 2 */
+        }
+
+        /**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+        pre {
+            font-family: monospace, monospace;
+            /* 1 */
+            font-size: 1em;
+            /* 2 */
+        }
+
+        /* Text-level semantics
+   ========================================================================== */
+
+        /**
+ * Remove the gray background on active links in IE 10.
+ */
+
+        a {
+            background-color: transparent;
+        }
+
+        /**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+        abbr[title] {
+            border-bottom: none;
+            /* 1 */
+            text-decoration: underline;
+            /* 2 */
+            text-decoration: underline dotted;
+            /* 2 */
+        }
+
+        /**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+        b,
+        strong {
+            font-weight: bolder;
+        }
+
+        /**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+        code,
+        kbd,
+        samp {
+            font-family: monospace, monospace;
+            /* 1 */
+            font-size: 1em;
+            /* 2 */
+        }
+
+        /**
+ * Add the correct font size in all browsers.
+ */
+
+        small {
+            font-size: 80%;
+        }
+
+        /**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+        }
+
+        sub {
+            bottom: -0.25em;
+        }
+
+        sup {
+            top: -0.5em;
+        }
+
+        /* Embedded content
+   ========================================================================== */
+
+        /**
+ * Remove the border on images inside links in IE 10.
+ */
+
+        img {
+            border-style: none;
+        }
+
+        /* Forms
+   ========================================================================== */
+
+        /**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            /* 1 */
+            font-size: 100%;
+            /* 1 */
+            line-height: 1.15;
+            /* 1 */
+            margin: 0;
+            /* 2 */
+        }
+
+        /**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+        button,
+        input {
+            /* 1 */
+            overflow: visible;
+        }
+
+        /**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+        button,
+        select {
+            /* 1 */
+            text-transform: none;
+        }
+
+        /**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+        button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        }
+
+        /**
+ * Remove the inner border and padding in Firefox.
+ */
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        /**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+        button:-moz-focusring,
+        [type="button"]:-moz-focusring,
+        [type="reset"]:-moz-focusring,
+        [type="submit"]:-moz-focusring {
+            outline: 1px dotted ButtonText;
+        }
+
+        /**
+ * Correct the padding in Firefox.
+ */
+
+        fieldset {
+            padding: 0.35em 0.75em 0.625em;
+        }
+
+        /**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+        legend {
+            box-sizing: border-box;
+            /* 1 */
+            color: inherit;
+            /* 2 */
+            display: table;
+            /* 1 */
+            max-width: 100%;
+            /* 1 */
+            padding: 0;
+            /* 3 */
+            white-space: normal;
+            /* 1 */
+        }
+
+        /**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+        progress {
+            vertical-align: baseline;
+        }
+
+        /**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+        textarea {
+            overflow: auto;
+        }
+
+        /**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+        [type="checkbox"],
+        [type="radio"] {
+            box-sizing: border-box;
+            /* 1 */
+            padding: 0;
+            /* 2 */
+        }
+
+        /**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+        [type="number"]::-webkit-inner-spin-button,
+        [type="number"]::-webkit-outer-spin-button {
+            height: auto;
+        }
+
+        /**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+        [type="search"] {
+            -webkit-appearance: textfield;
+            /* 1 */
+            outline-offset: -2px;
+            /* 2 */
+        }
+
+        /**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+        [type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+
+        /**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+        ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            /* 1 */
+            font: inherit;
+            /* 2 */
+        }
+
+        /* Interactive
+   ========================================================================== */
+
+        /*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+        details {
+            display: block;
+        }
+
+        /*
+ * Add the correct display in all browsers.
+ */
+
+        summary {
+            display: list-item;
+        }
+
+        /* Misc
+   ========================================================================== */
+
+        /**
+ * Add the correct display in IE 10+.
+ */
+
+        template {
+            display: none;
+        }
+
+        /**
+ * Add the correct display in IE 10.
+ */
+
+        [hidden] {
+            display: none;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/App.scss">
+        #root {
+            display: flex;
+            justify-content: center;
+        }
+
+        .parent-container {
+            width: 1240px;
+            min-height: 1754px;
+            padding: 3rem;
+            display: flex;
+            background: #fff;
+            box-sizing: border-box;
+            flex-direction: column;
+        }
+
+        .parent-container section {
+            color: #333;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Awards/Awards.scss">
+        .awards-main .sub-heading {
+            font-size: 1.2rem;
+            font-weight: normal;
+            display: block;
+            font-weight: 600;
+        }
+
+        .awards-main .sub-heading span {
+            font-weight: normal;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/util-components/Section/Section.scss">
+        section.main-section {
+            margin-top: 1rem;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/util-components/SectionHeading/SectionHeading.scss">
+        .section-heading-container {
+            font-size: 1.5rem;
+            font-weight: 500;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #999999;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Educations/Educations.scss">
+        .education-main .education-wrapper .sub-heading {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Experience/Experience.scss">
+        .location {
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
+        .experience-wrapper {
+            margin: 1rem 0;
+        }
+
+        .experience-wrapper:last-child {
+            margin: 0;
+        }
+
+        .work-list {
+            margin-left: 5px;
+        }
+
+        .work-list .pro-desc {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .work-list .pro-desc span {
+            padding-right: 5px;
+        }
+
+        .list-wrapper .list {
+            position: relative;
+            padding-left: 1rem;
+        }
+
+        .list-wrapper .list::before {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 6px;
+            background-color: #766d6d;
+            left: 0;
+            top: 12px;
+            position: absolute;
+            border-radius: 6px;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/util-components/Text/Text.scss">
+        p {
+            font-size: 1.2rem;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/util-components/List/List.scss">
+        .list-wrapper {
+            display: flex;
+            row-gap: 0.5rem;
+            flex-direction: column;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Header/Header.scss">
+        .header-container {
+            text-align: center;
+        }
+
+        .header-container h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 0.625rem;
+            margin-top: 0;
+        }
+
+        .header-container .desgination {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 0.625rem;
+        }
+
+        .header-container .contact-list {
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-container .contact-list a {
+            display: flex;
+            align-items: center;
+            margin: 0 0.3rem;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .header-container .contact-list a svg {
+            margin-right: 0.3rem;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Projects/Projects.scss">
+        .project-wrapper {
+            margin: 1rem 0;
+        }
+
+        .project-wrapper:last-child {
+            margin: 0;
+        }
+
+        .project-wrapper .pro-content {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-wrapper .pro-content span {
+            font-weight: 600;
+            padding-right: 5px;
+        }
+
+        .project-wrapper .list-wrapper {
+            margin-left: 5px;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Skills/Skills.scss">
+        .skill-list {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.2rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .skill-list .list {
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-list .list:last-child {
+            margin-bottom: 0;
+        }
+
+        .skill-list .skill-title {
+            font-weight: 600;
+        }
+
+        .skill-list span {
+            margin: 0.3rem 0;
+            padding-right: 5px;
+        }
+    </style>
+    <style type="text/css"
+        data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/components/Summary/Summary.scss">
+        .desc {
+            margin-top: 1rem;
+        }
+    </style>
+    <style type="text/css" data-vite-dev-id="D:/projects/ATS-Resume/arul-ats-resume/src/styles/common.style.scss">
+        .sub-heading {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 0.5rem 0;
+            display: flex;
+            column-gap: 10px;
+        }
+
+        .sub-heading .light {
+            font-weight: 400;
+        }
+
+        .sub-heading .right {
+            margin-left: auto;
+            font-weight: 300;
+        }
+
+        .main-heading {
+            font-size: 1.35rem;
+            font-weight: 500;
+            margin: 0.5rem 0;
+            display: flex;
+            column-gap: 10px;
+            color: #145187;
+        }
+
+        .main-heading .light {
+            font-weight: 400;
+        }
+
+        .main-heading .right {
+            margin-left: auto;
+            font-weight: 300;
+        }
+
+        .keyword {
+            font-weight: 500 !important;
+        }
+    </style>
+    <style data-emotion="css" data-s="">
+        .css-1umw9bq-MuiSvgIcon-root {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            fill: currentColor;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <main class="parent-container">
+            <section class="header-container">
+                <h1>Arulmaran Gunasekaran</h1><span class="desgination">Full Stack Developer | Senior Technical
+                    Lead</span>
+                <div class="contact-list"><a href="mailto:iam.arulmaran@gmail.com"><svg
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                            focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MailIcon">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4-8 5-8-5V6l8 5 8-5z">
+                            </path>
+                        </svg>iam.arulmaran@gmail.com</a><a href="tel:+91 9821070180"><svg
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                            focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SmartphoneIcon">
+                            <path
+                                d="M17 1.01 7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99M17 19H7V5h10z">
+                            </path>
+                        </svg>+91 9821070180</a><a href=""><svg
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                            focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LocationOnIcon">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7m0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5">
+                            </path>
+                        </svg>Karaikal</a><a href="https://www.linkedin.com/in/iamarul/" target="_blank"><svg
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                            focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LinkedInIcon">
+                            <path
+                                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z">
+                            </path>
+                        </svg>in/arulmaran</a></div>
+            </section>
+            <section class=" main-section">
+                <div class="section-heading-container">Professional Summary</div>
+                <p class="desc">Results-driven <span class="keyword">Full Stack Developer</span> with <span
+                        class="keyword">10 years of experience</span> specializing in frontend development, UI/UX
+                    optimization, and accessibility (a11y) across diverse industries including media, banking,
+                    healthcare, education, and IoT. Expert in <span class="keyword">React, Angular, TypeScript,</span>
+                    and modern frontend frameworks with a proven track record of delivering <span
+                        class="keyword">scalable, responsive, and accessible web applications.</span> Skilled at
+                    collaborating with cross-functional teams, mentoring developers, and leading projects using <span
+                        class="keyword">Agile methodologies.</span> Passionate about optimizing application performance,
+                    improving user engagement, and achieving measurable business outcomes while leveraging backend
+                    technologies as needed.</p>
+            </section>
+            <section class=" main-section">
+                <div class="section-heading-container">Core Competencies</div>
+                <div class="skill-list">
+                    <div class="list"><span class="skill-title">Frontend :</span><span>React, Angular, JavaScript,
+                            TypeScript, HTML5, CSS3</span></div>
+                    <div class="list"><span class="skill-title">State Management :</span><span>Redux, RxJS</span></div>
+                    <div class="list"><span class="skill-title">UX Design :</span><span>Figma, Adobe Creative Cloud
+                            (Prototyping &amp; Design Systems)</span></div>
+                    <div class="list"><span class="skill-title">Testing :</span><span>RTL, Jest, Jasmine, Karma, Enzyme,
+                            SonarQube, Unit Testing</span></div>
+                    <div class="list"><span class="skill-title">Backend :</span><span>Core Java, Spring Boot, Node.js,
+                            Express.js, Server-side Rendering, RESTful APIs, Microservices</span></div>
+                    <div class="list"><span class="skill-title">Database :</span><span>MongoDB, PostgreSQL, MySQL, S3,
+                            DynamoDB</span></div>
+                    <div class="list"><span class="skill-title">DevOps &amp; Cloud :</span><span>AWS, CI/CD Pipelines,
+                            Docker, Git, Bitbucket, Agile/Scrum methodologies</span></div>
+                </div>
+            </section>
+            <section class=" main-section">
+                <div class="section-heading-container">Professional Experience</div>
+                <div class="experience-wrapper">
+                    <div class="main-heading">HCLTech |<span class="light">Senior Technical Lead</span><span
+                            class="right">June 2021 - Present</span></div>
+                    <div class="list-wrapper">
+                        <p class="list"><span class="keyword">Led the frontend development</span> of a custom Media
+                            Acquisition Portal (MAP) using <span class="keyword">React.js</span> and <span
+                                class="keyword">Material UI</span>, improving <span class="keyword">UI performance by
+                                40%</span> and increasing user satisfaction by <span class="keyword">40%</span>.</p>
+                        <p class="list">Developed <span class="keyword">reusable component libraries</span>, enabling
+                            faster feature development and reducing code duplication by <span
+                                class="keyword">30%</span>.</p>
+                        <p class="list">Implemented <span class="keyword">a11y features achieving</span> compliance with
+                            <span class="keyword">WCAG 2.1 standards</span>, increasing the platform’s <span
+                                class="keyword">accessibility score by 25%</span>.
+                        </p>
+                        <p class="list">Spearheaded the integration of <span class="keyword">AWS services (DynamoDB,
+                                S3)</span> to enhance data storage efficiency, improving data retrieval speeds by <span
+                                class="keyword">25%</span>.</p>
+                        <p class="list">Collaborated with backend teams to integrate <span class="keyword">RESTful
+                                APIs</span>, reducing API response times by <span class="keyword">30%</span>.</p>
+                        <p class="list"><span class="keyword">Mentored and guided 5 frontend developers</span>,
+                            fostering best coding practices and improving code review efficiency.</p>
+                    </div>
+                </div>
+                <div class="experience-wrapper">
+                    <div class="main-heading">Infosys |<span class="light">Technology Analyst</span><span
+                            class="right">Jan 2019 - May 2021</span></div>
+                    <div class="list-wrapper">
+                        <p class="list">Developed <span class="keyword">responsive banking web applications</span> for
+                            Oaknorth Bank using <span class="keyword">React</span> and <span
+                                class="keyword">TypeScript</span>, enhancing mobile <span class="keyword">user
+                                engagement by 35%</span>.</p>
+                        <p class="list">Improved platform <span class="keyword">accessibility (a11y)</span> to comply
+                            with national standards, enabling access for a wider audience and boosting overall customer
+                            satisfaction.</p>
+                        <p class="list">Collaborated with designers and stakeholders to revamp the UI/UX, leading to a
+                            <span class="keyword">20% improvement in usability and client retention.</span>
+                        </p>
+                        <p class="list">Facilitated sprint planning, daily stand-ups, and retrospectives, ensuring
+                            efficient Agile processes and timely project deliveries.</p>
+                    </div>
+                </div>
+                <div class="experience-wrapper">
+                    <div class="main-heading">Luminescent Digital |<span class="light">UI Developer</span><span
+                            class="right">Apr 2018 - Dec 2018</span></div>
+                    <div class="list-wrapper">
+                        <p class="list">Developed a dynamic <span class="keyword">ENOC Annual Reports</span> Platform
+                            using <span class="keyword">React</span> and <span class="keyword">Node.js</span>, leading
+                            to a 25% increase in user engagement through interactive charts and responsive pages.</p>
+                        <p class="list">Ensured that the web application successfully met the client’s needs for
+                            showcasing products and <span class="keyword">financial data, contributing to better
+                                customer visibility</span>.</p>
+                    </div>
+                </div>
+                <div class="experience-wrapper">
+                    <div class="main-heading">RM India |<span class="light">UI/UX Consultant</span><span
+                            class="right">Sep 2017 - Apr 2018</span></div>
+                    <div class="list-wrapper">
+                        <p class="list"><span class="keyword">Led frontend development</span> for the <span
+                                class="keyword">RM Assessor</span> digital marking platform, enhancing evaluation
+                            efficiency by <span class="keyword">35%</span> through responsive design and interactive UI
+                            components.</p>
+                        <p class="list">Designed accessible features to support <span class="keyword">multi-language
+                                assessments</span>, improving user adoption in global markets.</p>
+                        <p class="list">Implemented OCR-based tools that reduced paper-based marking processes,
+                            shortening turnaround <span class="keyword">times by 20%</span>.</p>
+                    </div>
+                </div>
+                <div class="experience-wrapper">
+                    <div class="main-heading">NextGen TechEdge Solutions |<span class="light">Graphic / UI
+                            Designer</span><span class="right">May 2016 - Sep 2017</span></div>
+                    <div class="list-wrapper">
+                        <p class="list">Developed a <span class="keyword">responsive job portal</span> for <span
+                                class="keyword">Jobdiagnosis</span>, enhancing <span
+                                class="keyword">cross-platform</span> performance and increasing job applications by
+                            <span class="keyword">20%.</span>
+                        </p>
+                        <p class="list">Led the frontend revamp using <span class="keyword">JavaScript and
+                                jQuery</span>, improving load times and user interactions.</p>
+                    </div>
+                </div>
+                <div class="experience-wrapper">
+                    <div class="main-heading">Blasterwaves Technologies |<span class="light">Web Developer</span><span
+                            class="right">Sep 2015 - May 2016</span></div>
+                    <div class="list-wrapper">
+                        <p class="list">Created interactive web modules for Northeast Sports Network, improving video
+                            streaming access and user retention.</p>
+                        <p class="list">Implemented responsive design strategies, <span class="keyword">boosting mobile
+                                traffic by 15%</span>.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="project-main main-section">
+                <div class="section-heading-container">Projects</div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>NBCUniversal (Media Acquisition Portal)</span></div>
+                    <div class="pro-content"><span>Description: </span>Media Acquisition Portal (MAP) is a solution for
+                        managing media requests, allowing users to create and process forms for tasks like downloading,
+                        scheduling, sending, and deleting media clips.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>ReactJs, Material UI, Java Spring Boot, Python,
+                        AWS services</div>
+                    <div class="pro-content"><span>Impact: </span><span class="keyword">Achieved a 40% reduction</span>
+                        in processing times by introducing <span class="keyword">bulk request</span> handling and
+                        improving dashboard responsiveness, leading to enhanced operational efficiency</div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>Oaknorth Bank</span></div>
+                    <div class="pro-content"><span>Description: </span>Oaknorth Lending App is a responsive banking web
+                        application designed to manage various account types, including Business Loans, Personal
+                        Savings, Fixed-Term Deposits.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>ReactJs, Jira, Java Spring Boot, Git, SQL Server
+                    </div>
+                    <div class="pro-content"><span>Impact: </span>Increased mobile user engagement by <span
+                            class="keyword">35%</span> with responsive design and improved account management features,
+                        <span class="keyword">resulting in a 98% user satisfaction</span> rate among employees.
+                    </div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>Genentech Clinical Trials</span></div>
+                    <div class="pro-content"><span>Description: </span>Genentech Clinical Trials is a web application
+                        that allows patients to schedule online appointments, receive doctor advice, and track their
+                        health and medical history.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>ReactJs, Jira, Java Spring Boot, Git, SQL Server
+                    </div>
+                    <div class="pro-content"><span>Impact: </span>Enabled patients to manage appointments easily, <span
+                            class="keyword">reducing booking times by 30%</span> while improving communication between
+                        healthcare providers and patients.</div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>Eaton Trellix</span></div>
+                    <div class="pro-content"><span>Description: </span>Trellix Smart Spaces IoT Platform centralizes
+                        data from Wavelinx Area Controllers, manages alarms and users, and integrates with third-party
+                        systems via BACnet/IP and REST APIs. It automates control of electrical devices in industrial
+                        and office environments.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>Angular Framework, Java Spring Boot, PostgreSQL
+                    </div>
+                    <div class="pro-content"><span>Impact: </span>Automated device management and <span
+                            class="keyword">monitoring, resulting in a 20%</span> reduction in manual maintenance
+                        efforts and improved energy efficiency in <span class="keyword">large-scale deployments.</span>
+                    </div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>ENOC Reports</span></div>
+                    <div class="pro-content"><span>Description: </span>Emirates National Oil Company Limited (ENOC)
+                        L.L.C. is a leading integrated global oil and gas player operating across the energy sector
+                        value chain.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>ReactJs, NodeJs, MongoDB</div>
+                    <div class="pro-content"><span>Impact: </span><span class="keyword">Increased user engagement by
+                            25%</span>8 with dynamic content rendering and interactive visualizations, enabling faster
+                        access to key financial data.</div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>RM Assessor</span></div>
+                    <div class="pro-content"><span>Description: </span>RM Assessor is a digital marking platform that
+                        helps organizations mark assessments more efficiently and securely.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>ReactJs, .NET Framework, MySQL</div>
+                    <div class="pro-content"><span>Impact: </span>Improved marking <span class="keyword">efficiency by
+                            35%</span> through OCR integration and responsive design, leading to quicker result
+                        processing for educational institutions.</div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>Jobdiagnosis</span></div>
+                    <div class="pro-content"><span>Description: </span>JobDiagnosis is an international job posting site
+                        that job seekers can use to locate new job opportunities around the world. The website collects
+                        postings from other job sites to make them easier for candidates to find.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>Javascript, Jquery, Php, Mysql</div>
+                    <div class="pro-content"><span>Impact: </span>Enhanced job search functionality and <span
+                            class="keyword">boosted application rates by 20%</span> through a streamlined and responsive
+                        interface.</div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="main-heading"><span>Northeast Sports Network</span></div>
+                    <div class="pro-content"><span>Description: </span>Northeast Sports Network is the premier sports
+                        website featuring state or the art live video streaming technology, on demand video, game
+                        articles, featured columns, photos, message boards, blogs, and more.</div>
+                    <div class="pro-content"><span>Tech Stack: </span>Javascript, Jquery, Php, Mysql</div>
+                    <div class="pro-content"><span>Impact: </span>Improved live streaming <span
+                            class="keyword">reliability, increasing viewership by 15%</span> and reducing buffering
+                        complaints significantly.</div>
+                </div>
+            </section>
+            <section class="education-main main-section">
+                <div class="section-heading-container">Education</div>
+                <div class="education-wrapper">
+                    <div class="sub-heading">Master of Computer Application -<span class="light">Pondicherry University
+                            | <i>Graduated June 2015</i></span></div>
+                </div>
+                <div class="education-wrapper">
+                    <div class="sub-heading">Bachelor of Computer Application -<span class="light">Bharathidasan
+                            University | <i>Graduated May 2012</i></span></div>
+                </div>
+            </section>
+            <section class="awards-main main-section">
+                <div class="section-heading-container">Awards &amp; Recognition</div>
+                <div class="awards-wrapper">
+                    <div class="sub-heading">HCL ERS Champion Award (2024) - <span>Honored for significant
+                            contributions to application configuration and maintainability.</span></div>
+                </div>
+                <div class="awards-wrapper">
+                    <div class="sub-heading">HCL ERS Champion Award (2023) - <span>Recognized for leadership in
+                            successful project delivery and innovation.</span></div>
+                </div>
+                <div class="awards-wrapper">
+                    <div class="sub-heading">Infosys Insta Award (2020) - <span>Awarded for delivering a key feature
+                            ahead of schedule with exceptional quality.</span></div>
+                </div>
+                <div class="awards-wrapper">
+                    <div class="sub-heading">Google RFP (UX AdobeXD) (2019) - <span>Developed an impactful UX design
+                            proposal for Google Testing Services.</span></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+</body>
+
+</html>

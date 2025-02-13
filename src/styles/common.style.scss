@@ -1,10 +1,29 @@
-// Sub heading styles 
+// Sub heading styles
 .sub-heading {
     font-size: 1.25rem;
     font-weight: 500;
     margin: .5rem 0;
     display: flex;
     column-gap: 10px;
+
+    .light {
+        font-weight: 400;
+    }
+
+    .right {
+        margin-left: auto;
+        font-weight: 300;
+    }
+}
+
+// Style applied to title
+.main-heading {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    display: flex;
+    column-gap: 10px;
+    color: var(--highlighter);
 
     .light {
         font-weight: 400;

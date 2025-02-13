@@ -1,109 +1,108 @@
 [
     {
-        "companyName": "HCL TECHNOLOGIES",
+        "companyName": "HCLTech",
         "desigination": "Senior Technical Lead",
         "period": "June 2021 - Present",
         "location": "Chennai, TN",
         "works": [
             {
-                "type": "Media based applications",
+                "type": "Media & Entertainment",
                 "detailLists": [
-                    "Led the start and setup of multiple projects using React.js. Established\nproject structures, guided teams through development, and ensured timely delivery while following\nbest practices.",
-                    "Led the migration of the user interface and functionality to a new version\nof the dashboard portal.",
-                    "Added and configured advanced features such as theming, user\npreferences, bulk actions, row pinning, file attachments, filter grouping, auto-refresh, and advanced\nsearch to enhance user experience and efficiency.",
-                    "Designed and implemented request forms to manage data inputs and\nuser interactions, including file attachments and data validation for efficient processing.",
-                    "Introducing and integrating\ninnovative features that significantly improved functionality, boosted performance, and increased\nuser engagement and satisfaction."
+                    "Led the start and setup of multiple projects using React.js. Established project structures, guided teams through development, and ensured timely delivery while following best practices.",
+                    "Led the migration of the user interface and functionality to a new version of the dashboard portal.",
+                    "Added and configured advanced features such as theming, user preferences, bulk actions, row pinning, file attachments, filter grouping, auto-refresh, and advanced search to enhance user experience and efficiency.",
+                    "Designed and implemented request forms to manage data inputs and user interactions, including file attachments and data validation for efficient processing.",
+                    "Introducing and integrating innovative features that significantly improved functionality, boosted performance, and increased user engagement and satisfaction."
                 ]
             },
             {
-                "type": "Customer banking application",
+                "type": "Banking & Finance",
                 "detailLists": [
-                    "Initiated and configured a React (TypeScript) project from scratch for\nOakNorth Bank's banking application, focusing on various key modules.",
-                    "Developed modules for Authentication, Account Listing, Account Details, and\ncustomized filters, while also writing unit test cases for the application."
+                    "Initiated and configured a React (TypeScript) project from scratch for OakNorth Bank's banking application, focusing on various key modules.",
+                    "Developed modules for Authentication, Account Listing, Account Details, and customized filters, while also writing unit test cases for the application."
                 ]
             },
             {
-                "type": "Patient trial inquery porta",
+                "type": "Biotech & Pharma",
                 "detailLists": [
-                    "Led feature enhancements for a healthcare-based React.js application",
-                    "Initiated and configured security features for clinical trials within the Reactbased web application.",
-                    "Initiated and configured security features for clinical trials within the Reactbased web application."
+                    "Led feature enhancements for a healthcare-based React.js application.",
+                    "Initiated and configured security features for clinical trials within the React-based web application."
                 ]
             }
         ]
     },
     {
-        "companyName": "INFOSYS LIMITED",
+        "companyName": "Infosys",
         "desigination": "Technology Analyst",
         "period": "Jan 2019 - May 2021",
         "location": "Trivandrum, KL",
         "works": [
             {
-                "type": "IOT lighting solutions",
+                "type": "IoT Solutions",
                 "detailLists": [
-                    ":Developed various UI pages and modules for an IoT-based\nweb application using Angular. Additionally, worked in a unit testing environment to ensure\napplication quality.",
-                    "Organized and conducted skill-based training sessions for interns and\njunior developers.",
-                    "Designed a variety of UX templates using Adobe XD, including a Google RFP proposal\nfor a testing tool"
+                    "Developed various UI pages and modules for an IoT-based web application using Angular. Additionally, worked in a unit testing environment to ensure application quality.",
+                    "Organized and conducted skill-based training sessions for interns and junior developers.",
+                    "Designed a variety of UX templates using Adobe XD, including a Google RFP proposal for a testing tool."
                 ]
             }
         ]
     },
     {
-        "companyName": "LUMINESCENT DIGITAL",
+        "companyName": "Luminescent Digital",
         "desigination": "UI Developer",
         "period": "Apr 2018 - Dec 2018",
         "location": "Trivandrum, KL",
         "works": [
             {
-                "type": "Emirates national oil company",
+                "type": "Oil & Gas",
                 "detailLists": [
-                    "Responsible for project estimation, initialization, configuration, and delivery",
-                    "Provided support and maintenance for a online community-based web\napplication, implementing new features developed using React."
+                    "Responsible for project estimation, initialization, configuration, and delivery.",
+                    "Provided support and maintenance for an online community-based web application, implementing new features developed using React."
                 ]
             }
         ]
     },
     {
-        "companyName": "RM EDUCATION SOLUTIONS INDIA PVT LTD",
+        "companyName": "RM India",
         "desigination": "UI/UX Consultant",
         "period": "Sep 2017 - Apr 2018",
         "location": "Trivandrum, KL",
         "works": [
             {
-                "type": "E-Marking platform",
+                "type": "Education Software",
                 "detailLists": [
-                    "Concentrated on developing reusable JavaScript plugins and React components for\na product-based e-marking web application platform.",
-                    "Created wireframes and prototypes to introduce new feature UIs, receiving positive\nfeedback from the manager for delivering exceptional work in a short timeframe."
+                    "Concentrated on developing reusable JavaScript plugins and React components for a product-based e-marking web application platform.",
+                    "Created wireframes and prototypes to introduce new feature UIs, receiving positive feedback from the manager for delivering exceptional work in a short timeframe."
                 ]
             }
         ]
     },
     {
-        "companyName": "TECHEDGE LAB",
+        "companyName": "NextGen TechEdge Solutions",
         "desigination": "Graphic / UI Designer",
         "period": "May 2016 - Sep 2017",
         "location": "Vaishali, UP",
         "works": [
             {
-                "type": "E-Marking platform",
+                "type": "Job Portal",
                 "detailLists": [
-                    "Developed a US-based job portal website, handling both the UI and backend using JavaScript,\nHTML, PHP, and MySQL.",
-                    "Worked on various UI modules for a native mobile application built with the Angular and Ionic\nframeworks."
+                    "Developed a US-based job portal website, handling both the UI and backend using JavaScript, HTML, PHP, and MySQL.",
+                    "Worked on various UI modules for a native mobile application built with Angular and Ionic frameworks."
                 ]
             }
         ]
     },
     {
-        "companyName": "BLASTER WAVES TECHNOLOGIES",
+        "companyName": "Blasterwaves Technologies",
         "desigination": "Web Developer",
         "period": "Sep 2015 - May 2016",
         "location": "Karaikal, PY",
         "works": [
             {
-                "type": "E-Marking platform",
+                "type": "Web Services",
                 "detailLists": [
-                    "Developed a CMS website on the WordPress platform, focusing on email templates, product\ndetails, and filters modules.",
-                    "Created web templates, email templates, and marketing banners for a digital marketing platform\nthat empowers businesses to enhance their digital presence"
+                    "Developed a CMS website on the WordPress platform, focusing on email templates, product details, and filters modules.",
+                    "Created web templates, email templates, and marketing banners for a digital marketing platform that empowers businesses to enhance their digital presence."
                 ]
             }
         ]

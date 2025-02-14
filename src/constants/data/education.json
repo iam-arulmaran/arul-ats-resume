@@ -1,12 +1,12 @@
 [
     {
-        "courseName": "MASTER OF COMPUTER APPLICATION",
-        "graduatedOn": "GRADUATED JUNE 2015",
-        "university": "PONDICHERRY UNIVERSITY"
+        "courseName": "Master of Computer Application",
+        "graduatedOn": "Graduated June 2015",
+        "university": "Pondicherry University"
     },
     {
-        "courseName": "BACHELOR OF COMPUTER APPLICATION",
-        "graduatedOn": "GRADUATED MAY 2012",
-        "university": "BHARATHIDASAN UNIVERSITY"
+        "courseName": "Bachelor of Computer Application",
+        "graduatedOn": "Graduated May 2012",
+        "university": "Bharathidasan University"
     }
 ]

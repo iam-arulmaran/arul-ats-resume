@@ -1,5 +1,6 @@
 import "./App.scss";
-import { Certification } from "./components/Certification/Certification";
+import { Awards } from "./components/Awards/Awards";
+// import { Certification } from "./components/Certification/Certification";
 import { Education } from "./components/Educations/Educations";
 import { Experience } from "./components/Experience/Experience";
 import { Header } from "./components/Header/Header";
@@ -16,7 +17,8 @@ function App() {
       <Experience key="experience" />
       <Projects key="projects" />
       <Education key="education" />
-      <Certification key="certification" />
+      <Awards key="awards" />
+      {/* <Certification key="certification" /> */}
     </main>
   );
 }

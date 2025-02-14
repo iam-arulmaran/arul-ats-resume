@@ -20,7 +20,7 @@ const RenderProjects = ({ companyDetails = projectDetailsData }) => {
 
 export function Projects() {
   return (
-    <Section>
+    <Section extraClasses="project-main">
       <SectionHeading title={HEADINGS.PROJECTS} />
       <RenderProjects />
     </Section>

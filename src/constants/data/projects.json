@@ -1,93 +1,70 @@
 [
-    {
-        "title": "Nbcu Map & Dashboard Portal",
-        "detailLists": [
-            "Media-based application used by NBCU employees for managing media-related requests.",
-            "The application allows users make request to create, download, delete, send, and move media\nfiles, as well as initialize upcoming events.",
-            "It also features a dashboard for viewing and managing all requests submitted through the\nportal."
-        ],
-        "techStack": [
-            "ReactJs",
-            "Material UI",
-            "Java Spring Boot",
-            "Python",
-            "AWS services"
-        ]
-    },
-    {
-        "title": "Oaknorth Elevate Portal",
-        "detailLists": [
-            "Interactive Online Banking Application that supports User-Friendly Experience with fully\nresponsive design that allows easy access on any device, enabling effortless management of your\naccounts.",
-            "Access a diverse range of services, including Business Loans, Personal Savings, Fixed-Term\nDeposits (FTD), Non-Resident Accounts (NA), Educational Accounts (EA), and Educational\nInstitutional Savings Accounts (EAISA)."
-        ],
-        "techStack": [
-            "ReactJs",
-            "Jira",
-            "Java Spring Boot",
-            "Git",
-            "SQL Server"
-        ]
-    },
-    {
-        "title": "Clinical Trial",
-        "detailLists": [
-            "Online Medical Resource for Genentech Products designed for healthcare providers, offering\nclinical and trial information on Genentech products through a web platform.",
-            "The portal Enables PIs to manage patient medical diaries and activities efficiently. Provides a\nfeature for scheduling virtual appointments with patients via video or audio calls"
-        ],
-        "techStack": [
-            "ReactJs",
-            "Jira",
-            "Java Spring Boot",
-            "Git",
-            "SQL Server"
-        ]
-    },
-    {
-        "title": "Lighting Automation",
-        "detailLists": [
-            "Lighting Division delivers a range of innovative and reliable indoor and outdoor lighting and\ncontrols solutions",
-            "It provides features of WaveLinx, Trellix, HALO Home that is enable a smarter, safer lighting\ncontrol system for homes, buildings"
-        ],
-        "techStack": [
-            "Angular Framework",
-            "Java Spring Boot",
-            "PostgreSQL"
-        ]
-    },
-    {
-        "title": "Enoc",
-        "detailLists": [
-            "Emirates National Oil Company Group (ENOC) is a leading integrated global oil and gas player\noperating across the energy sector value chain",
-            "Developed and maintain the annual report for ENOC websites"
-        ],
-        "techStack": [
-            "ReactJs",
-            "NodeJs",
-            "MongoDB"
-        ]
-    },
-    {
-        "title": "Rm Assessor",
-        "detailLists": [
-            "The innovative high stakes e-marking platform to provide an Online e-marking feature with\nsupporting three languages"
-        ],
-        "techStack": [
-            "ReactJs",
-            ".NET Framework",
-            "MySQL"
-        ]
-    },
-    {
-        "title": "Jobdiagnosis",
-        "detailLists": [
-            "Developed a US-based job portal website, handling both the UI and backend using JavaScript,\nHTML, PHP, and MySQL.",
-            "Worked on various UI modules for a native mobile application built with the Angular and Ionic\nframeworks"
-        ],
-        "techStack": [
-            "Javascript",
-            "Jquery",
-            "Php",
-            "Mysql"
-        ]
-    }
+  {
+    "title": "NBCUniversal Forms",
+    "detailLists": [
+      "Spearheaded the development of a media management platform used by NBCU employees to manage media requests, reducing manual processing time by 40%.",
+      "Led the design and implementation of features to create, download, delete, and move media files, as well as managing upcoming events, enhancing operational efficiency.",
+      "Developed a centralized dashboard, improving visibility and management of all media-related requests submitted through the portal."
+    ],
+    "techStack": [
+      "ReactJs",
+      "Material UI",
+      "Java Spring Boot",
+      "Python",
+      "AWS services"
+    ]
+  },
+  {
+    "title": "Oaknorth Bank",
+    "detailLists": [
+      "Engineered an interactive online banking portal, creating a responsive and user-friendly platform for easy account management on any device.",
+      "Integrated a diverse range of services such as Business Loans, Fixed-Term Deposits, and Educational Accounts, improving customer engagement and satisfaction.",
+      "Utilized Jira for effective project management and ensured smooth collaboration among cross-functional teams."
+    ],
+    "techStack": ["ReactJs", "Jira", "Java Spring Boot", "Git", "SQL Server"]
+  },
+  {
+    "title": "Genentech Clinical Trials",
+    "detailLists": [
+      "Led the development of an online medical platform for Genentech Products, enabling healthcare providers to access clinical and trial data.",
+      "Built a patient management system for Principal Investigators (PIs) to schedule virtual appointments and track patient medical activities.",
+      "Integrated video/audio call features, enhancing communication and improving patient management efficiency by 30%."
+    ],
+    "techStack": ["ReactJs", "Jira", "Java Spring Boot", "Git", "SQL Server"]
+  },
+  {
+    "title": "Lighting Automation",
+    "detailLists": [
+      "Contributed to the development of smarter lighting control systems for homes and buildings, enhancing safety and energy efficiency.",
+      "Implemented key features of WaveLinx, Trellix, and HALO Home to provide an advanced and reliable lighting solution.",
+      "Improved system usability, ensuring seamless interaction and control for users."
+    ],
+    "techStack": ["Angular Framework", "Java Spring Boot", "PostgreSQL"]
+  },
+  {
+    "title": "Enoc",
+    "detailLists": [
+      "Developed and maintained the annual report section for ENOC's website, delivering a streamlined and visually appealing online report platform.",
+      "Supported the global energy sector by providing content management solutions that enhanced the company's digital presence.",
+      "Contributed to front-end and back-end development with a focus on UI/UX optimization and performance."
+    ],
+    "techStack": ["ReactJs", "NodeJs", "MongoDB"]
+  },
+  {
+    "title": "Rm Assessor",
+    "detailLists": [
+      "Led the development of a high-stakes e-marking platform for assessing online exams, supporting three languages for a diverse user base.",
+      "Designed and implemented features that streamlined the marking process, reducing turnaround time by 20%."
+    ],
+    "techStack": ["ReactJs", ".NET Framework", "MySQL"]
+  },
+  {
+    "title": "Jobdiagnosis",
+    "detailLists": [
+      "Developed a US-based job portal, handling both the frontend and backend, improving job matching for candidates and employers.",
+      "Created various UI modules for a native mobile application built with Angular and Ionic, enhancing the mobile user experience.",
+      "Ensured seamless performance across platforms, driving a 15% increase in user engagement."
+    ],
+    "techStack": ["Javascript", "Jquery", "Php", "Mysql"]
+  }
 ]

@@ -13,7 +13,7 @@ const RenderExperience = ({ companyDetails = experienceDetails }) => {
         key={`${exp.companyName.replace(/\s/g, "")}-${index}`}
       >
         <div className="main-heading">
-          {exp.companyName} |<span className="light">{exp.desigination}</span>
+          {exp.companyName} |<span className="light">{exp.designation}</span>
           <span className="right">{exp.period}</span>
         </div>
         {/* <span className="location">{exp.location}</span> */}
@@ -28,7 +28,7 @@ const RenderWorks = ({ works = [] }) => {
     return (
       <div className="work-list" key={work.type}>
         <div className="sub-heading">
-          {work.type} |<span className="light">Domain</span>
+          {work.projectName} |<span className="light">{work.type}</span>
         </div>
         <List data={work.detailLists} listClass="list" />
       </div>

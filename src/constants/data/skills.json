@@ -1,27 +1,52 @@
 {
-    "pro": [
-        "React",
-        "Angular",
-        "NodeJs",
-        "Javascript",
-        "Typescript",
-        "RxJs",
-        "Redux",
-        "HTML",
-        "CSS",
-        "Git",
-        "Bitbucket",
-        "REST API",
-        "Agile development",
-        "Adobe creative cloud"
-    ],
-    "familiar": [
-        "AWS Services",
-        "SQL",
-        "MongoDB",
-        "Java",
-        "Flutter",
-        "Firebase console",
-        "Google console"
-    ]
+  "frontend": [
+    {
+      "title": "",
+      "content": "React, Angular, JavaScript, TypeScript, HTML5, CSS3"
+    },
+    {
+      "title": "State Management",
+      "content": "Redux, RxJS"
+    },
+    {
+      "title": "UX Design",
+      "content": "Figma, Adobe Creative Cloud (Prototyping, and Design Systems)"
+    }
+  ],
+  "backend": [
+    {
+      "title": "",
+      "content": "Node.js, Java Spring Boot"
+    },
+    {
+      "title": "",
+      "content": "RESTful APIs, GraphQL, Microservices Architecture"
+    }
+  ],
+  "versionControl": [
+    {
+      "title": "",
+      "content": "Git, Bitbucket, Agile Development (Scrum, Kanban)"
+    }
+  ],
+  "cloud": [
+    {
+      "title": "AWS Services",
+      "content": "Lambda, EC2, S3"
+    },
+    {
+      "title": "Databases",
+      "content": "MongoDB, PostgreSQL, MySQL"
+    }
+  ],
+  "testing": [
+    {
+      "title": "React",
+      "content": "React testing library, Jest"
+    },
+    {
+      "title": "Angular",
+      "content": "Jasmine framework, Karma test runner"
+    }
+  ]
 }

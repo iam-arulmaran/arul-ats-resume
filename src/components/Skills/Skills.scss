@@ -1,30 +1,12 @@
 .skill-list {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     font-size: 1.2rem;
     flex-wrap: wrap;
     column-gap: 1.5rem;
 
     span {
-        position: relative;
-
-        &:last-child {
-            &::after {
-                content: none;
-            }
-        }
-
-        &::after {
-            content: "";
-            display: block;
-            width: 6px;
-            height: 6px;
-            background-color: #766d6d;
-            right: -15px;
-            top: 12px;
-            position: absolute;
-            border-radius: 6px;
-
-
-        }
+        margin: .3rem 0;
     }
+
 }

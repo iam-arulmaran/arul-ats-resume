@@ -7,7 +7,8 @@
     "works": [
       {
         "type": "Media & Entertainment",
-        "projectName": "NBCUniversal Forms",
+        "projectName": "NBCUniversal (Media Acquisition Portal)",
+        "desc": "Media Acquisition Portal (MAP) is a solution for managing media requests, allowing users to create and process forms for tasks like downloading, scheduling, sending, and deleting media clips.",
         "detailLists": [
           "Led the development of a custom Form Portal and Dashboard Portal to replace the third-party Microsoft Forms solution, enabling greater control and scalability.",
           "Replicated and enhanced existing functionality from the third-party service, resulting in a 40% increase in user satisfaction.",
@@ -24,6 +25,7 @@
       {
         "type": "Banking & Finance",
         "projectName": "Oaknorth Bank",
+        "desc": "Oaknorth Lending App is a responsive banking web application designed to manage various account types, including Business Loans, Personal Savings, Fixed-Term Deposits.",
         "detailLists": [
           "Developed a responsive banking web application focused on a lending portal, serving multiple account types, including Business Loans, Personal Savings, Fixed-Term Deposits (FTD), Non-Resident Accounts (NA), Educational Accounts (EA), and Educational & Institutional Savings Accounts (EAISA).",
           "Built the frontend using React and TypeScript, ensuring a 100% mobile and desktop responsive design, resulting in a 35% improvement in user engagement on mobile devices.",
@@ -36,6 +38,7 @@
       {
         "type": "Biotech & Pharma",
         "projectName": "Genentech Clinical Trials",
+        "desc": "Genentech Clinical Trials is a web application that allows patients to schedule online appointments, receive doctor advice, and track their health and medical history.",
         "detailLists": [
           "Developed a clinical trial web application that allows patients to schedule online appointments and receive advice from doctors, while tracking patient health and medical history.",
           "Built the frontend using React and TypeScript, ensuring the application is 100% responsive across all devices, improving accessibility and user engagement by 30%.",
@@ -56,8 +59,9 @@
     "location": "Trivandrum, KL",
     "works": [
       {
-        "type": "IoT Solutions",
-        "projectName": "Eaton Ligiting Automation",
+        "type": "IoT Services",
+        "projectName": "Eaton Trellix",
+        "desc": "Trellix Smart Spaces IoT Platform centralizes data from Wavelinx Area Controllers, manages alarms and users, and integrates with third-party systems via BACnet/IP and REST APIs. It automates control of electrical devices in industrial and office environments.",
         "detailLists": [
           "Developed an interactive IoT-enabled web application to digitalize and manage electrical components like lights, fans, and other devices in industries and offices, automating lighting systems.",
           "Built the frontend using Angular to handle installation, uninstallation, device detection, and resource management across large-scale environments like schools, colleges, and office premises.",
@@ -80,6 +84,7 @@
       {
         "type": "Oil & Gas",
         "projectName": "ENOC Reports",
+        "desc": "Emirates National Oil Company Limited (ENOC) L.L.C. is a leading integrated global oil and gas player operating across the energy sector value chain.",
         "detailLists": [
           "Developed an interactive web application to showcase ENOC products, yearly financial results, and other business operations like supply, trading, and energy resources.",
           "Designed a fully responsive web application with an interactive UI and animations to enhance user engagement across all devices.",
@@ -97,8 +102,9 @@
     "location": "Trivandrum, KL",
     "works": [
       {
-        "type": "Education Software",
+        "type": "Education Services",
         "projectName": "RM Assessor",
+        "desc": "RM Assessor is a digital marking platform that helps organizations mark assessments more efficiently and securely.",
         "detailLists": [
           "Developed an innovative e-marking platform to enable teachers and professors to digitally access and correct papers using an OCR-based tool with a wide range of features, improving the efficiency of the marking process by 35%.",
           "Created a user-friendly e-marking web application using React, .NET, MySQL, and custom libraries, which enhanced accessibility and usability, resulting in 40% faster paper evaluation.",
@@ -116,8 +122,9 @@
     "location": "Vaishali, UP",
     "works": [
       {
-        "type": "Job Portal",
+        "type": "Job Portal Services",
         "projectName": "Jobdiagnosis",
+        "desc": "JobDiagnosis is an international job posting site that job seekers can use to locate new job opportunities around the world. The website collects postings from other job sites to make them easier for candidates to find.",
         "detailLists": [
           "Developed a US-based job portal to improve job matching between candidates and employers, enhancing user experience and increasing job application rates by 20%.",
           "Managed both frontend and backend development of the portal using JavaScript, HTML, PHP, and MySQL, ensuring smooth data flow and accurate job listings.",
@@ -136,6 +143,7 @@
       {
         "type": "Web Services",
         "projectName": "Northeast Sports Network",
+        "desc": "Northeast Sports Network is the premier sports website featuring state or the art live video streaming technology, on demand video, game articles, featured columns, photos, message boards, blogs, and more.",
         "detailLists": [
           "Developed a CMS-based WordPress website to handle email templates, product listings, and filtering modules for improved user experience and content management.",
           "Created web templates, email marketing designs, and digital banners to enhance branding and improve client engagement.",

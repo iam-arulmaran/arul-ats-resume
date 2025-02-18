@@ -30,6 +30,10 @@ const RenderWorks = ({ works = [] }) => {
         <div className="sub-heading">
           {work.projectName} |<span className="light">{work.type}</span>
         </div>
+        <div className="pro-desc">
+          <span>Description: </span>
+          {work.desc}
+        </div>
         <List data={work.detailLists} listClass="list" />
       </div>
     );

@@ -5,8 +5,13 @@
     flex-wrap: wrap;
     column-gap: 1.5rem;
 
+    .skill-title {
+        // font-weight: 500;
+    }
+
     span {
         margin: .3rem 0;
+        padding-right: 5px;
     }
 
 }

@@ -31,12 +31,10 @@ export function Skills() {
       <RenderSkills skillList={skillsData.frontend} />
       <div className="sub-heading">{TECHNICAL_SKILLS.BACKEND}</div>
       <RenderSkills skillList={skillsData.backend} />
-      <div className="sub-heading">{TECHNICAL_SKILLS.TESTING}</div>
-      <RenderSkills skillList={skillsData.testing} />
       <div className="sub-heading">{TECHNICAL_SKILLS.CLOUD}</div>
       <RenderSkills skillList={skillsData.cloud} />
-      <div className="sub-heading">{TECHNICAL_SKILLS.VERSION_CONTROL}</div>
-      <RenderSkills skillList={skillsData.versionControl} />
+      {/* <div className="sub-heading">{TECHNICAL_SKILLS.VERSION_CONTROL}</div>
+      <RenderSkills skillList={skillsData.versionControl} /> */}
     </Section>
   );
 }

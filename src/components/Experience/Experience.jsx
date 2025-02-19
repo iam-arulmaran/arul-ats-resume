@@ -17,28 +17,28 @@ const RenderExperience = ({ companyDetails = experienceDetails }) => {
           <span className="right">{exp.period}</span>
         </div>
         {/* <span className="location">{exp.location}</span> */}
-        <RenderWorks works={exp.works} />
+        <List data={exp.contributions} listClass="list" />
       </div>
     );
   });
 };
 
-const RenderWorks = ({ works = [] }) => {
-  return works.map((work) => {
-    return (
-      <div className="work-list" key={work.type}>
-        <div className="sub-heading">
-          {work.projectName} |<span className="light">{work.type}</span>
-        </div>
-        <div className="pro-desc">
-          <span>Description: </span>
-          {work.desc}
-        </div>
-        <List data={work.detailLists} listClass="list" />
-      </div>
-    );
-  });
-};
+// const RenderWorks = ({ works = [] }) => {
+//   return works.map((work) => {
+//     return (
+//       <div className="work-list" key={work.type}>
+//         <div className="sub-heading">
+//           {work.projectName} |<span className="light">{work.type}</span>
+//         </div>
+//         <div className="pro-desc">
+//           <span>Description: </span>
+//           {work.desc}
+//         </div>
+//         <List data={work.detailLists} listClass="list" />
+//       </div>
+//     );
+//   });
+// };
 
 export function Experience() {
   return (

@@ -4,7 +4,11 @@
 }
 
 .experience-wrapper {
-    margin-bottom: 1.25rem;
+    margin: 1rem 0;
+
+    &:last-child {
+        margin: 0;
+    }
 }
 
 .work-list {

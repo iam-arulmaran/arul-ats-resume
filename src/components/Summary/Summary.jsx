@@ -4,12 +4,15 @@ import { SectionHeading } from "../../util-components/SectionHeading/SectionHead
 import { Text } from "../../util-components/Text/Text";
 import "./Summary.scss";
 import summaryData from "../../constants/data/summary.json";
+import HighlightText from "../../utils/HighlightText";
 
 export function Summary() {
   return (
     <Section>
       <SectionHeading title={HEADINGS.SUMMARY} />
-      <Text classes="desc">{summaryData.summary}</Text>
+      <Text classes="desc">
+        <HighlightText text={summaryData.summary} />
+      </Text>
     </Section>
   );
 }

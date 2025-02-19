@@ -17,12 +17,9 @@ const RenderAwards = ({ awards = awardsDetails }) => {
   return awards.map((award, index) => {
     return (
       <div className="awards-wrapper" key={index}>
-        <div className="main-heading">
-          <span>
-            {award.title} | {award.year}
-          </span>
+        <div className="sub-heading">
+          <b>{award.title}</b> ({award.year}) - {award.desc}
         </div>
-        <div className="sub-heading">{award.desc}</div>
       </div>
     );
   });

@@ -1,6 +1,8 @@
 [
   {
-    "title": "NBCUniversal Media Acquisition Portal",
+    "title": "NBCUniversal (Media Acquisition Portal)",
+    "desc": "Media Acquisition Portal (MAP) is a solution for managing media requests, allowing users to create and process forms for tasks like downloading, scheduling, sending, and deleting media clips.",
+    "impact": "**Achieved a 40% reduction** in processing times by introducing **bulk request** handling and improving dashboard responsiveness, leading to enhanced operational efficiency",
     "detailLists": [
       "Spearheaded the development of a media management platform used by NBCU employees to manage media requests, reducing manual processing time by 40%.",
       "Led the design and implementation of features to create, download, delete, and move media files, as well as managing upcoming events, enhancing operational efficiency.",
@@ -16,6 +18,8 @@
   },
   {
     "title": "Oaknorth Bank",
+    "desc": "Oaknorth Lending App is a responsive banking web application designed to manage various account types, including Business Loans, Personal Savings, Fixed-Term Deposits.",
+    "impact": "Increased mobile user engagement by **35%** with responsive design and improved account management features, **resulting in a 98% user satisfaction** rate among employees.",
     "detailLists": [
       "Engineered an interactive online banking portal, creating a responsive and user-friendly platform for easy account management on any device.",
       "Integrated a diverse range of services such as Business Loans, Fixed-Term Deposits, and Educational Accounts, improving customer engagement and satisfaction.",
@@ -25,6 +29,8 @@
   },
   {
     "title": "Genentech Clinical Trials",
+    "desc": "Genentech Clinical Trials is a web application that allows patients to schedule online appointments, receive doctor advice, and track their health and medical history.",
+    "impact": "Enabled patients to manage appointments easily, **reducing booking times by 30%** while improving communication between healthcare providers and patients.",
     "detailLists": [
       "Led the development of an online medical platform for Genentech Products, enabling healthcare providers to access clinical and trial data.",
       "Built a patient management system for Principal Investigators (PIs) to schedule virtual appointments and track patient medical activities.",
@@ -33,7 +39,9 @@
     "techStack": ["ReactJs", "Jira", "Java Spring Boot", "Git", "SQL Server"]
   },
   {
-    "title": "Lighting Automation",
+    "title": "Eaton Trellix",
+    "desc": "Trellix Smart Spaces IoT Platform centralizes data from Wavelinx Area Controllers, manages alarms and users, and integrates with third-party systems via BACnet/IP and REST APIs. It automates control of electrical devices in industrial and office environments.",
+    "impact": "Automated device management and **monitoring, resulting in a 20%** reduction in manual maintenance efforts and improved energy efficiency in **large-scale deployments.**",
     "detailLists": [
       "Contributed to the development of smarter lighting control systems for homes and buildings, enhancing safety and energy efficiency.",
       "Implemented key features of WaveLinx, Trellix, and HALO Home to provide an advanced and reliable lighting solution.",
@@ -42,7 +50,9 @@
     "techStack": ["Angular Framework", "Java Spring Boot", "PostgreSQL"]
   },
   {
-    "title": "Enoc",
+    "title": "ENOC Reports",
+    "desc": "Emirates National Oil Company Limited (ENOC) L.L.C. is a leading integrated global oil and gas player operating across the energy sector value chain.",
+    "impact": "**Increased user engagement by 25%**8 with dynamic content rendering and interactive visualizations, enabling faster access to key financial data.",
     "detailLists": [
       "Developed and maintained the annual report section for ENOC's website, delivering a streamlined and visually appealing online report platform.",
       "Supported the global energy sector by providing content management solutions that enhanced the company's digital presence.",
@@ -51,7 +61,9 @@
     "techStack": ["ReactJs", "NodeJs", "MongoDB"]
   },
   {
-    "title": "Rm Assessor",
+    "title": "RM Assessor",
+    "desc": "RM Assessor is a digital marking platform that helps organizations mark assessments more efficiently and securely.",
+    "impact": "Improved marking **efficiency by 35%** through OCR integration and responsive design, leading to quicker result processing for educational institutions.",
     "detailLists": [
       "Led the development of a high-stakes e-marking platform for assessing online exams, supporting three languages for a diverse user base.",
       "Designed and implemented features that streamlined the marking process, reducing turnaround time by 20%."
@@ -60,10 +72,23 @@
   },
   {
     "title": "Jobdiagnosis",
+    "desc": "JobDiagnosis is an international job posting site that job seekers can use to locate new job opportunities around the world. The website collects postings from other job sites to make them easier for candidates to find.",
+    "impact": "Enhanced job search functionality and **boosted application rates by 20%** through a streamlined and responsive interface.",
     "detailLists": [
       "Developed a US-based job portal, handling both the frontend and backend, improving job matching for candidates and employers.",
       "Created various UI modules for a native mobile application built with Angular and Ionic, enhancing the mobile user experience.",
       "Ensured seamless performance across platforms, driving a 15% increase in user engagement."
+    ],
+    "techStack": ["Javascript", "Jquery", "Php", "Mysql"]
+  },
+  {
+    "title": "Northeast Sports Network",
+    "desc": "Northeast Sports Network is the premier sports website featuring state or the art live video streaming technology, on demand video, game articles, featured columns, photos, message boards, blogs, and more.",
+    "impact": "Improved live streaming **reliability, increasing viewership by 15%** and reducing buffering complaints significantly.",
+    "detailLists": [
+      "Developed a CMS-based WordPress website to handle email templates, product listings, and filtering modules for improved user experience and content management.",
+      "Created web templates, email marketing designs, and digital banners to enhance branding and improve client engagement.",
+      "Boosted client engagement by 20% through visually impactful designs and improved user interactions."
     ],
     "techStack": ["Javascript", "Jquery", "Php", "Mysql"]
   }

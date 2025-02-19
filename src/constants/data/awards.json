@@ -1,22 +1,22 @@
 [
-    {
-        "title": "HCL ERS Champion Award",
-        "year": "2024",
-        "desc": "Honored for significant contributions to the overall application configuration and maintainability"
-    },
-    {
-        "title": "HCL ERS Champion Award",
-        "year": "20203",
-        "desc": "Recognized for demonstrating a commitment to excellence in project development."
-    },
-    {
-        "title": "Infosys Insta Award",
-        "year": "2020",
-        "desc": "For taking the initiative to implement a new feature and successfully delivering it on time"
-    },
-    {
-        "title": "Google RFP (UX AdobeXD)",
-        "year": "2019",
-        "desc": "Created and submitted a comprehensive UX design proposal for the Google Testing Services application"
-    }
+  {
+    "title": "HCL ERS Champion Award",
+    "year": "2024",
+    "desc": "Honored for significant contributions to application configuration and maintainability."
+  },
+  {
+    "title": "HCL ERS Champion Award",
+    "year": "2023",
+    "desc": "Recognized for leadership in successful project delivery and innovation."
+  },
+  {
+    "title": "Infosys Insta Award",
+    "year": "2020",
+    "desc": "Awarded for delivering a key feature ahead of schedule with exceptional quality."
+  },
+  {
+    "title": "Google RFP (UX AdobeXD)",
+    "year": "2019",
+    "desc": "Developed an impactful UX design proposal for Google Testing Services."
+  }
 ]

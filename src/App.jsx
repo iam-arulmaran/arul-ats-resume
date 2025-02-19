@@ -4,7 +4,7 @@ import { Awards } from "./components/Awards/Awards";
 import { Education } from "./components/Educations/Educations";
 import { Experience } from "./components/Experience/Experience";
 import { Header } from "./components/Header/Header";
-// import { Projects } from "./components/Projects/Projects";
+import { Projects } from "./components/Projects/Projects";
 import { Skills } from "./components/Skills/Skills";
 import { Summary } from "./components/Summary/Summary";
 
@@ -15,7 +15,7 @@ function App() {
       <Summary key="summary" />
       <Skills key="skills" />
       <Experience key="experience" />
-      {/* <Projects key="projects" /> */}
+      <Projects key="projects" />
       <Education key="education" />
       <Awards key="awards" />
       {/* <Certification key="certification" /> */}

@@ -17,11 +17,11 @@ const RenderEducations = ({ educationDetails = eduDetails }) => {
   return educationDetails.map((edu, index) => {
     return (
       <div className="education-wrapper" key={index}>
-        <div className="main-heading">
-          <span>{edu.courseName}</span>
-        </div>
         <div className="sub-heading">
-          {edu.graduatedOn} |<span className="light">{edu.university}</span>
+          {edu.courseName} -
+          <span className="light">
+            {edu.university} | <i>{edu.graduatedOn}</i>
+          </span>
         </div>
       </div>
     );

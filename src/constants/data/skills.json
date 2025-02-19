@@ -1,56 +1,32 @@
 {
-  "frontend": [
-    {
-      "title": "UI",
-      "content": "React, Angular, JavaScript, TypeScript, HTML5, CSS3"
-    },
-    {
-      "title": "State Management",
-      "content": "Redux, RxJS"
-    },
-    {
-      "title": "UX Design",
-      "content": "Figma, Adobe Creative Cloud (Prototyping, and Design Systems)"
-    },
-    {
-      "title": "Testing",
-      "content": "RTL, Jest, Jasmine, Karma, Enzyme"
-    }
+  "frontend": ["React", "Angular", "JavaScript", "TypeScript", "HTML5", "CSS3"],
+  "stateManagement": ["Redux", "RxJS"],
+  "uxDesign": ["Figma", "Adobe Creative Cloud (Prototyping & Design Systems)"],
+  "testing": [
+    "RTL",
+    "Jest",
+    "Jasmine",
+    "Karma",
+    "Enzyme",
+    "SonarQube",
+    "Unit Testing"
   ],
   "backend": [
-    {
-      "title": "",
-      "content": "Node.js, Java Spring Boot"
-    },
-    {
-      "title": "",
-      "content": "RESTful APIs, GraphQL, Microservices Architecture"
-    }
+    "Core Java",
+    "Spring Boot",
+    "Node.js",
+    "Express.js",
+    "Server-side Rendering",
+    "RESTful APIs",
+    "Microservices"
   ],
-  "versionControl": [
-    {
-      "title": "",
-      "content": "Git, Bitbucket, Agile Development (Scrum, Kanban)"
-    }
-  ],
-  "cloud": [
-    {
-      "title": "AWS Services",
-      "content": "Lambda, EC2, S3"
-    },
-    {
-      "title": "Databases",
-      "content": "MongoDB, PostgreSQL, MySQL"
-    }
-  ],
-  "testing": [
-    {
-      "title": "Testing",
-      "content": "React testing library, Jest"
-    },
-    {
-      "title": "Angular",
-      "content": "Jasmine framework, Karma test runner"
-    }
+  "database": ["MongoDB", "PostgreSQL", "MySQL", "S3", "DynamoDB"],
+  "cloudAndDatabases": [
+    "AWS",
+    "CI/CD Pipelines",
+    "Docker",
+    "Git",
+    "Bitbucket",
+    "Agile/Scrum methodologies"
   ]
 }

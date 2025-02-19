@@ -1,9 +1,18 @@
-.project-main {
-    margin-top: 0 !important;
-}
-
 .project-wrapper {
-    margin: 1.25rem 0;
+    margin: 1rem 0;
+
+    &:last-child {
+        margin: 0;
+    }
+
+    .pro-content {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        span {
+            font-weight: 600;
+            padding-right: 5px;
+        }
+    }
 }
 
 .project-wrapper .list-wrapper {

@@ -1,3 +1,5 @@
+@use "./variables.scss" as *;
+
 // Sub heading styles
 .sub-heading {
     font-size: 1.3rem;
@@ -12,7 +14,8 @@
 
     .right {
         margin-left: auto;
-        font-weight: 300;
+        font-weight: 400;
+        font-size: 1.2rem;
     }
 }
 
@@ -23,7 +26,7 @@
     margin: 0.5rem 0;
     display: flex;
     column-gap: 10px;
-    color: var(--highlighter);
+    color: $highlighter;
 
     .light {
         font-weight: 400;
@@ -31,7 +34,8 @@
 
     .right {
         margin-left: auto;
-        font-weight: 300;
+        font-weight: 400;
+        font-size: 1.2rem;
     }
 }
 

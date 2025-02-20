@@ -6,8 +6,8 @@
     "location": "Chennai, TN",
     "contributions": [
       "**Led the frontend development** of a custom Media Acquisition Portal (MAP) using **React.js** and **Material UI**, improving **UI performance by 40%** and increasing user satisfaction by **40%**.",
-      "Developed **reusable component libraries**, enabling faster feature development and reducing code duplication by **30%**.",
-      "Implemented **a11y features achieving** compliance with **WCAG 2.1 standards**, increasing the platform’s **accessibility score by 25%**.",
+      "Engineered a robust set of **reusable component libraries**, accelerating feature **development cycles by 40%** and achieving a significant reduction in code duplication, ultimately lowering maintenance efforts across the project.",
+      "Enhanced platform **accessibility by integrating a11y features** to achieve compliance with **WCAG 2.1 standards**; boosted the site’s overall accessibility **score from 70% to over 87%**, ensuring better **user experiences** for all.",
       "Spearheaded the integration of **AWS services (DynamoDB, S3)** to enhance data storage efficiency, improving data retrieval speeds by **25%**.",
       "Collaborated with backend teams to integrate **RESTful APIs**, reducing API response times by **30%**.",
       "**Mentored and guided 5 frontend developers**, fostering best coding practices and improving code review efficiency."
@@ -66,8 +66,7 @@
     "period": "Jan 2019 - May 2021",
     "location": "Trivandrum, KL",
     "contributions": [
-      "Developed **responsive banking web applications** for Oaknorth Bank using **React** and **TypeScript**, enhancing mobile **user engagement by 35%**.",
-      "Improved platform **accessibility (a11y)** to comply with national standards, enabling access for a wider audience and boosting overall customer satisfaction.",
+      "Crafted **responsive banking web applications** for Oaknorth Bank using **React** and **TypeScript**, enhancing mobile **user engagement by 35%**.",
       "Collaborated with designers and stakeholders to revamp the UI/UX, leading to a **20% improvement in usability and client retention.**",
       "Facilitated sprint planning, daily stand-ups, and retrospectives, ensuring efficient Agile processes and timely project deliveries."
     ],
@@ -95,7 +94,7 @@
     "period": "Apr 2018 - Dec 2018",
     "location": "Trivandrum, KL",
     "contributions": [
-      "Developed a dynamic **ENOC Annual Reports** Platform using **React** and **Node.js**, leading to a 25% increase in user engagement through interactive charts and responsive pages.",
+      "Built an interactive **ENOC** Annual Reports Platform using **React and Node.js**, resulting in a **25% boost in user engagement** through charts and responsive pages.",
       "Ensured that the web application successfully met the client’s needs for showcasing products and **financial data, contributing to better customer visibility**."
     ],
     "works": [
@@ -116,12 +115,12 @@
   {
     "companyName": "RM India",
     "designation": "UI/UX Consultant",
-    "period": "Sep 2017 - Apr 2018",
+    "period": "Sept 2017 - Apr 2018",
     "location": "Trivandrum, KL",
     "contributions": [
-      "**Led frontend development** for the **RM Assessor** digital marking platform, enhancing evaluation efficiency by **35%** through responsive design and interactive UI components.",
-      "Designed accessible features to support **multi-language assessments**, improving user adoption in global markets.",
-      "Implemented OCR-based tools that reduced paper-based marking processes, shortening turnaround **times by 20%**."
+      "**Directed frontend development** for the **RM Assessor** digital marking platform, enhancing evaluation efficiency by **35%** through responsive design and interactive UI components.",
+      "Designed inclusive features to support **multi-language** assessments, increasing user adoption in global markets.",
+      "Deployed OCR-based tools that reduced paper-based marking processes, shortening turnaround **times by 20%**."
     ],
     "works": [
       {
@@ -141,11 +140,11 @@
   {
     "companyName": "NextGen TechEdge Solutions",
     "designation": "Graphic / UI Designer",
-    "period": "May 2016 - Sep 2017",
+    "period": "May 2016 - Sept 2017",
     "location": "Vaishali, UP",
     "contributions": [
-      "Developed a **responsive job portal** for **Jobdiagnosis**, enhancing **cross-platform** performance and increasing job applications by **20%.**",
-      "Led the frontend revamp using **JavaScript and jQuery**, improving load times and user interactions."
+      "Constructed a **responsive job portal** for **Jobdiagnosis**, enhancing **cross-platform** performance and increasing job applications by **20%.**",
+      "Transformed the frontend using **JavaScript and jQuery**, **optimizing load times by 25%** and enhancing user interactions, **resulting in a 20%** improvement in user engagement."
     ],
     "works": [
       {
@@ -164,11 +163,11 @@
   {
     "companyName": "Blasterwaves Technologies",
     "designation": "Web Developer",
-    "period": "Sep 2015 - May 2016",
+    "period": "Sept 2015 - May 2016",
     "location": "Karaikal, PY",
     "contributions": [
       "Created interactive web modules for Northeast Sports Network, improving video streaming access and user retention.",
-      "Implemented responsive design strategies, **boosting mobile traffic by 15%**."
+      "Applied responsive design strategies, **boosting mobile traffic by 15%**."
     ],
     "works": [
       {

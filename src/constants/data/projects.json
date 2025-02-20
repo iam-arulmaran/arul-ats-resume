@@ -52,13 +52,13 @@
   {
     "title": "ENOC Reports",
     "desc": "Emirates National Oil Company Limited (ENOC) L.L.C. is a leading integrated global oil and gas player operating across the energy sector value chain.",
-    "impact": "**Increased user engagement by 25%**8 with dynamic content rendering and interactive visualizations, enabling faster access to key financial data.",
+    "impact": "**Increased user engagement by 25%** with dynamic content rendering and interactive visualizations, enabling faster access to key financial data.",
     "detailLists": [
       "Developed and maintained the annual report section for ENOC's website, delivering a streamlined and visually appealing online report platform.",
       "Supported the global energy sector by providing content management solutions that enhanced the company's digital presence.",
       "Contributed to front-end and back-end development with a focus on UI/UX optimization and performance."
     ],
-    "techStack": ["ReactJs", "NodeJs", "MongoDB"]
+    "techStack": ["ReactJs", "Node.js", "MongoDB"]
   },
   {
     "title": "RM Assessor",
@@ -78,17 +78,6 @@
       "Developed a US-based job portal, handling both the frontend and backend, improving job matching for candidates and employers.",
       "Created various UI modules for a native mobile application built with Angular and Ionic, enhancing the mobile user experience.",
       "Ensured seamless performance across platforms, driving a 15% increase in user engagement."
-    ],
-    "techStack": ["Javascript", "Jquery", "Php", "Mysql"]
-  },
-  {
-    "title": "Northeast Sports Network",
-    "desc": "Northeast Sports Network is the premier sports website featuring state or the art live video streaming technology, on demand video, game articles, featured columns, photos, message boards, blogs, and more.",
-    "impact": "Improved live streaming **reliability, increasing viewership by 15%** and reducing buffering complaints significantly.",
-    "detailLists": [
-      "Developed a CMS-based WordPress website to handle email templates, product listings, and filtering modules for improved user experience and content management.",
-      "Created web templates, email marketing designs, and digital banners to enhance branding and improve client engagement.",
-      "Boosted client engagement by 20% through visually impactful designs and improved user interactions."
     ],
     "techStack": ["Javascript", "Jquery", "Php", "Mysql"]
   }

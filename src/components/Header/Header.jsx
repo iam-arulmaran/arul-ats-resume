@@ -22,19 +22,19 @@ export function Header() {
         {jobTitle} | {jobDesignation}
       </span>
       <div className="contact-list">
-        <a href="">
+        <a href={`mailto:${email}`}>
           <MailIcon />
           {email}
         </a>
-        <a href="">
+        <a href={`tel:${phone}`}>
           <SmartphoneIcon />
           {phone}
         </a>
-        <a href="">
+        <a href="https://g.co/kgs/QaCPLhA" target="_blank">
           <LocationOnIcon />
           {location}
         </a>
-        <a href={linkedIn.link}>
+        <a href={linkedIn.link} target="_blank">
           <LinkedInIcon />
           {linkedIn.name}
         </a>

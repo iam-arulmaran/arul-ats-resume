@@ -1,6 +1,8 @@
+@use "../../styles/variables.scss" as *;
+
 .section-heading-container {
     font-size: 1.5rem;
     font-weight: 500;
     padding-bottom: .5rem;
-    border-bottom: 2px solid var(--border);
+    border-bottom: 2px solid $border;
 }

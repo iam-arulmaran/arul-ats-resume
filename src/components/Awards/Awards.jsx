@@ -18,7 +18,7 @@ const RenderAwards = ({ awards = awardsDetails }) => {
     return (
       <div className="awards-wrapper" key={index}>
         <div className="sub-heading">
-          <b>{award.title}</b> ({award.year}) - {award.desc}
+          <span>{award.title}</span> ({award.year}) - {award.desc}
         </div>
       </div>
     );

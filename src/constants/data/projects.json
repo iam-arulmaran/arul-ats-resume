@@ -2,15 +2,16 @@
   {
     "title": "NBCUniversal (Media Acquisition Portal)",
     "desc": "Media Acquisition Portal (MAP) is a solution for managing media requests, allowing users to create and process forms for tasks like downloading, scheduling, sending, and deleting media clips.",
-    "impact": "**Achieved a 40% reduction** in processing times by introducing **bulk request** handling and improving dashboard responsiveness, leading to enhanced operational efficiency",
+    "impact": "**Achieved a 40% reduction** in processing times by introducing **bulk request** handling and improving dashboard responsiveness, leading to enhanced operational efficiency.",
     "detailLists": [
       "Spearheaded the development of a media management platform used by NBCU employees to manage media requests, reducing manual processing time by 40%.",
       "Led the design and implementation of features to create, download, delete, and move media files, as well as managing upcoming events, enhancing operational efficiency.",
       "Developed a centralized dashboard, improving visibility and management of all media-related requests submitted through the portal."
     ],
     "techStack": [
-      "ReactJs",
+      "React",
       "Material UI",
+      "Styled Components",
       "Java Spring Boot",
       "Python",
       "AWS services"
@@ -25,7 +26,15 @@
       "Integrated a diverse range of services such as Business Loans, Fixed-Term Deposits, and Educational Accounts, improving customer engagement and satisfaction.",
       "Utilized Jira for effective project management and ensured smooth collaboration among cross-functional teams."
     ],
-    "techStack": ["ReactJs", "Jira", "Java Spring Boot", "Git", "SQL Server"]
+    "techStack": [
+      "React",
+      "Bootstrap",
+      "Styled Components",
+      "Java Spring Boot",
+      "SQL Server",
+      "Jira",
+      "Git"
+    ]
   },
   {
     "title": "Genentech Clinical Trials",
@@ -36,7 +45,15 @@
       "Built a patient management system for Principal Investigators (PIs) to schedule virtual appointments and track patient medical activities.",
       "Integrated video/audio call features, enhancing communication and improving patient management efficiency by 30%."
     ],
-    "techStack": ["ReactJs", "Jira", "Java Spring Boot", "Git", "SQL Server"]
+    "techStack": [
+      "React",
+      "Typescript",
+      "Node.js",
+      "MongoDB",
+      "Jira",
+      "Git",
+      "Jenkins"
+    ]
   },
   {
     "title": "Eaton Trellix",
@@ -47,7 +64,12 @@
       "Implemented key features of WaveLinx, Trellix, and HALO Home to provide an advanced and reliable lighting solution.",
       "Improved system usability, ensuring seamless interaction and control for users."
     ],
-    "techStack": ["Angular Framework", "Java Spring Boot", "PostgreSQL"]
+    "techStack": [
+      "Angular Framework",
+      "Material UI",
+      "Java Spring Boot",
+      "PostgreSQL"
+    ]
   },
   {
     "title": "ENOC Reports",
@@ -58,7 +80,11 @@
       "Supported the global energy sector by providing content management solutions that enhanced the company's digital presence.",
       "Contributed to front-end and back-end development with a focus on UI/UX optimization and performance."
     ],
-    "techStack": ["ReactJs", "Node.js", "MongoDB"]
+    "techStack": [
+      "Angular Framework",
+      "Node.js",
+      "MongoDB"
+    ]
   },
   {
     "title": "RM Assessor",
@@ -68,7 +94,11 @@
       "Led the development of a high-stakes e-marking platform for assessing online exams, supporting three languages for a diverse user base.",
       "Designed and implemented features that streamlined the marking process, reducing turnaround time by 20%."
     ],
-    "techStack": ["ReactJs", ".NET Framework", "MySQL"]
+    "techStack": [
+      "React",
+      ".NET Framework",
+      "MySQL"
+    ]
   },
   {
     "title": "Jobdiagnosis",
@@ -79,6 +109,11 @@
       "Created various UI modules for a native mobile application built with Angular and Ionic, enhancing the mobile user experience.",
       "Ensured seamless performance across platforms, driving a 15% increase in user engagement."
     ],
-    "techStack": ["Javascript", "Jquery", "Php", "Mysql"]
+    "techStack": [
+      "Javascript",
+      "Jquery",
+      "Php",
+      "Mysql"
+    ]
   }
 ]

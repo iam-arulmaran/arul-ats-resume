@@ -30,14 +30,14 @@ export function Header() {
           <SmartphoneIcon />
           {phone}
         </a>
-        <a href="https://g.co/kgs/QaCPLhA" target="_blank">
+        {/* <a href="https://g.co/kgs/QaCPLhA" target="_blank">
           <LocationOnIcon />
           {location}
         </a>
         <a href={linkedIn.link} target="_blank">
           <LinkedInIcon />
           {linkedIn.name}
-        </a>
+        </a> */}
       </div>
     </section>
   );

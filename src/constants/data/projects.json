@@ -1,5 +1,19 @@
 [
   {
+    "title": "Scholastic (Math Pro)",
+    "desc": "Scholastic Math Pro, an interactive educational platform designed to enhance mathematics learning for K-12 students through personalized practice, adaptive assessments and gamified challenges.",
+    "impact": "**Achieved 80% WCAG 2.1 AA compliance** for critical user flows (e.g., assessment taking, personalized practice modules), significantly enhancing usability for users with disabilities",
+    "detailLists": [
+      "Developed accessible UI components (e.g., custom dropdowns, modal dialogs, form elements) ensuring proper focus management, aria-live regions for dynamic content updates, and aria-label/aria-describedby for clear announcements.",
+      "Implemented logical tab order and visual focus indicators, ensuring a seamless experience for keyboard-only users."
+    ],
+    "techStack": [
+      "React",
+      "Bootstrap",
+      "Java Spring Boot"
+    ]
+  },
+  {
     "title": "NBCUniversal (Media Acquisition Portal)",
     "desc": "Media Acquisition Portal (MAP) is a solution for managing media requests, allowing users to create and process forms for tasks like downloading, scheduling, sending, and deleting media clips.",
     "impact": "**Achieved a 40% reduction** in processing times by introducing **bulk request** handling and improving dashboard responsiveness, leading to enhanced operational efficiency.",

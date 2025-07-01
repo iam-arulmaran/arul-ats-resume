@@ -5,9 +5,9 @@
     "period": "June 2021 - Present",
     "location": "Chennai, TN",
     "contributions": [
+      "Enhanced platform **accessibility by integrating a11y features** to achieve compliance with **WCAG 2.1 standards**; boosted the site’s overall accessibility **score from 70% to over 87%**, ensuring better **user experiences** for all.",
       "**Led the frontend development** of a custom Media Acquisition Portal (MAP) using **React.js** and **Material UI**, improving **UI performance by 40%** and increasing user satisfaction by **40%**.",
       "Engineered a robust set of **reusable component libraries**, accelerating feature **development cycles by 40%** and achieving a significant reduction in code duplication, ultimately lowering maintenance efforts across the project.",
-      "Enhanced platform **accessibility by integrating a11y features** to achieve compliance with **WCAG 2.1 standards**; boosted the site’s overall accessibility **score from 70% to over 87%**, ensuring better **user experiences** for all.",
       "Spearheaded the integration of **AWS services** to enhance data storage efficiency, improving data retrieval speeds by **25%**.",
       "Collaborated with backend teams to integrate **RESTful APIs**, reducing API response times by **30%**.",
       "**Mentored and guided 5 frontend developers**, fostering best coding practices and improving code review efficiency."

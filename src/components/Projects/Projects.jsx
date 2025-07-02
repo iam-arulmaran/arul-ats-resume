@@ -5,8 +5,8 @@ import projectDetailsData from "../../constants/data/projects.json";
 import "./Projects.scss";
 import HighlightText from "../../utils/HighlightText";
 
-const RenderProjects = ({ companyDetails = projectDetailsData }) => {
-  return companyDetails.map((pro, index) => {
+const RenderProjects = ({ projectDetails = projectDetailsData }) => {
+  return projectDetails.map((pro, index) => {
     const techStack = pro.techStack.join(", ");
     return (
       <div className="project-wrapper" key={index}>
@@ -30,11 +30,11 @@ const RenderProjects = ({ companyDetails = projectDetailsData }) => {
   });
 };
 
-export function Projects() {
+export function Projects({data}) {
   return (
     <Section extraClasses="project-main">
       <SectionHeading title={HEADINGS.PROJECTS} />
-      <RenderProjects />
+      <RenderProjects projectDetails={data}/>
     </Section>
   );
 }

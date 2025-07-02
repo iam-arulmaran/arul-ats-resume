@@ -40,11 +40,11 @@ const RenderExperience = ({ companyDetails = experienceDetails }) => {
 //   });
 // };
 
-export function Experience() {
+export function Experience({data}) {
   return (
     <Section>
       <SectionHeading title={HEADINGS.EXPERIENCE} />
-      <RenderExperience />
+      <RenderExperience companyDetails={data}/>
     </Section>
   );
 }

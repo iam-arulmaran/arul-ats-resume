@@ -6,12 +6,13 @@ import "./Summary.scss";
 import summaryData from "../../constants/data/summary.json";
 import HighlightText from "../../utils/HighlightText";
 
-export function Summary() {
+export function Summary({data}) {
+  const summary = data[0].summary || summaryData.summar;
   return (
     <Section>
       <SectionHeading title={HEADINGS.SUMMARY} />
       <Text classes="desc">
-        <HighlightText text={summaryData.summary} />
+        <HighlightText text={summary} />
       </Text>
     </Section>
   );

@@ -4,11 +4,11 @@ import { Section } from "../../util-components/Section/Section";
 import { SectionHeading } from "../../util-components/SectionHeading/SectionHeading";
 import eduDetails from "../../constants/data/education.json";
 
-export function Education() {
+export function Education({data}) {
   return (
     <Section extraClasses="education-main">
       <SectionHeading title={HEADINGS.EDUCATION} />
-      <RenderEducations />
+      <RenderEducations educationDetails={data}/>
     </Section>
   );
 }

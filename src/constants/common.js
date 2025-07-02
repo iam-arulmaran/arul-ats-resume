@@ -27,3 +27,6 @@ export const SKILL_TITLES = {
   cloudAndDatabases: "DevOps & Cloud",
   database: "Database",
 };
+
+
+export const API_RESUME_URL = "https://resume-backend-rixg.onrender.com/api/resume";

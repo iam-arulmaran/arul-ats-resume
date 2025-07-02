@@ -5,7 +5,7 @@ import SmartphoneIcon from "@mui/icons-material/Smartphone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import profile from "../../constants/data/profile.json";
 
-export function Header() {
+export function Header({data}) {
   const {
     email,
     fullName,
@@ -14,7 +14,7 @@ export function Header() {
     linkedIn,
     location,
     phone,
-  } = profile;
+  } = data[0] || profile;
   return (
     <section className="header-container">
       <h1>{fullName}</h1>
@@ -30,14 +30,14 @@ export function Header() {
           <SmartphoneIcon />
           {phone}
         </a>
-        {/* <a href="https://g.co/kgs/QaCPLhA" target="_blank">
+        <a href="https://g.co/kgs/QaCPLhA" target="_blank">
           <LocationOnIcon />
           {location}
         </a>
         <a href={linkedIn.link} target="_blank">
           <LinkedInIcon />
           {linkedIn.name}
-        </a> */}
+        </a>
       </div>
     </section>
   );

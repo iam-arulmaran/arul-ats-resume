@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { API_RESUME_URL } from '../constants/common';
+import resumeJsonData from "../constants/data/resume.json";
 
 const RESUME_CACHE_KEY = 'resumeData';
 const CACHE_EXPIRY_MS = 1000 * 60 * 60; // 1 hour
@@ -41,8 +42,13 @@ export default function useResumeData() {
         setLoading(false);
       })
       .catch(err => {
-        console.error('Failed to fetch resume data:', err);
+        // localStorage.setItem(
+        //   RESUME_CACHE_KEY,
+        //   JSON.stringify({ timestamp: Date.now(), resumeJsonData })
+        // );
+        setResumeData(resumeJsonData);
         setLoading(false);
+        console.error('Failed to fetch resume data:', err);
       });
   }, []);
 

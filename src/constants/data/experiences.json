@@ -1,187 +1,187 @@
-[
-  {
-    "companyName": "HCLTech",
-    "designation": "Senior Technical Lead",
-    "period": "June 2021 - Present",
-    "location": "Chennai, TN",
-    "contributions": [
-      "Enhanced platform **accessibility by integrating a11y features** to achieve compliance with **WCAG 2.1 standards**; boosted the site’s overall accessibility **score from 70% to over 87%**, ensuring better **user experiences** for all.",
-      "**Led the frontend development** of a custom Media Acquisition Portal (MAP) using **React.js** and **Material UI**, improving **UI performance by 40%** and increasing user satisfaction by **40%**.",
-      "Engineered a robust set of **reusable component libraries**, accelerating feature **development cycles by 40%** and achieving a significant reduction in code duplication, ultimately lowering maintenance efforts across the project.",
-      "Spearheaded the integration of **AWS services** to enhance data storage efficiency, improving data retrieval speeds by **25%**.",
-      "Collaborated with backend teams to integrate **RESTful APIs**, reducing API response times by **30%**.",
-      "**Mentored and guided 5 frontend developers**, fostering best coding practices and improving code review efficiency."
-    ],
-    "works": [
-      {
-        "type": "Media & Entertainment",
-        "projectName": "NBCUniversal (Media Acquisition Portal)",
-        "desc": "Media Acquisition Portal (MAP) is a solution for managing media requests, allowing users to create and process forms for tasks like downloading, scheduling, sending, and deleting media clips.",
-        "detailLists": [
-          "Led the development of a custom Form Portal and Dashboard Portal to replace the third-party Microsoft Forms solution, enabling greater control and scalability.",
-          "Replicated and enhanced existing functionality from the third-party service, resulting in a 40% increase in user satisfaction.",
-          "Developed the frontend using React.js and Material UI, delivering a modern, responsive interface and improving UI performance by 40%.",
-          "Built backend APIs using Java Spring Boot, reducing API response times by 30% for faster data processing.",
-          "Integrated AWS DynamoDB for efficient, scalable data storage, improving data retrieval speed by 25%.",
-          "Implemented unit testing with Jest and React Testing Library, achieving 95% test coverage and ensuring high application reliability.",
-          "Added advanced features like form validation, user preferences, bulk actions, row pinning, file attachments, and advanced search, increasing feature set by 50%.",
-          "Optimized app performance through code splitting and lazy loading, reducing page load times by 40% and enhancing overall speed.",
-          "Delivered a cost-effective solution, saving the client 30% annually by removing third-party dependencies.",
-          "Enhanced application speed and responsiveness, resulting in 40% faster load times and improved user engagement."
-        ]
-      },
-      {
-        "type": "Banking & Finance",
-        "projectName": "Oaknorth Bank",
-        "desc": "Oaknorth Lending App is a responsive banking web application designed to manage various account types, including Business Loans, Personal Savings, Fixed-Term Deposits.",
-        "detailLists": [
-          "Developed a responsive banking web application focused on a lending portal, serving multiple account types, including Business Loans, Personal Savings, Fixed-Term Deposits (FTD), Non-Resident Accounts (NA), Educational Accounts (EA), and Educational & Institutional Savings Accounts (EAISA).",
-          "Built the frontend using React and TypeScript, ensuring a 100% mobile and desktop responsive design, resulting in a 35% improvement in user engagement on mobile devices.",
-          "Integrated Java Spring Boot for backend APIs and used PostgreSQL for data management, achieving a 40% faster data retrieval time and ensuring scalable performance.",
-          "Ensured full a11y compliance, integrating accessibility features that met the country’s policy requirements, improving accessibility score by 25%.",
-          "Leveraged various libraries and tools for UI management, resulting in a 20% faster load time and smoother user interactions.",
-          "Successfully deployed the application for commercial use by bank employees, meeting all client needs for speed, responsiveness, user-friendliness, a11y compliance, and security, leading to 98% satisfaction from the bank’s employees."
-        ]
-      },
-      {
-        "type": "Biotech & Pharma",
-        "projectName": "Genentech Clinical Trials",
-        "desc": "Genentech Clinical Trials is a web application that allows patients to schedule online appointments, receive doctor advice, and track their health and medical history.",
-        "detailLists": [
-          "Developed a clinical trial web application that allows patients to schedule online appointments and receive advice from doctors, while tracking patient health and medical history.",
-          "Built the frontend using React and TypeScript, ensuring the application is 100% responsive across all devices, improving accessibility and user engagement by 30%.",
-          "Implemented Chart.js for visualizing patient health data, enabling doctors to track and monitor patient progress with interactive graphical representations.",
-          "Used Redux for efficient state management, ensuring smooth data flow across the application and improving load times by 25%.",
-          "Created a module for patients to log in, book appointments with doctors, and engage in virtual consultations through third-party libraries for seamless video/audio calls.",
-          "Integrated a secure prescription module where doctors can provide prescriptions, ensuring end-to-end encryption for patient data.",
-          "Developed key features like virtual meeting scheduling, health status monitoring, prescription management, and audio calls, leading to a 40% improvement in user interaction.",
-          "Fully tested the application using React Testing Library and Enzyme, ensuring 95% test coverage and application reliability."
-        ]
-      }
-    ]
-  },
-  {
-    "companyName": "Infosys",
-    "designation": "Technology Analyst",
-    "period": "Jan 2019 - May 2021",
-    "location": "Trivandrum, KL",
-    "contributions": [
-      "Crafted **responsive banking web apps** for Oaknorth Bank using **React** and **TypeScript**, enhancing mobile **user engagement by 35%**.",
-      "Collaborated with designers and stakeholders to revamp the UI/UX, leading to a **20% improvement in usability and client retention**.",
-      "Facilitated sprint planning, daily stand-ups, and retrospectives, ensuring efficient Agile processes and timely project deliveries."
-    ],
-    "works": [
-      {
-        "type": "IoT Services",
-        "projectName": "Eaton Trellix",
-        "desc": "Trellix Smart Spaces IoT Platform centralizes data from Wavelinx Area Controllers, manages alarms and users, and integrates with third-party systems via BACnet/IP and REST APIs. It automates control of electrical devices in industrial and office environments.",
-        "detailLists": [
-          "Developed an interactive IoT-enabled web application to digitalize and manage electrical components like lights, fans, and other devices in industries and offices, automating lighting systems.",
-          "Built the frontend using Angular to handle installation, uninstallation, device detection, and resource management across large-scale environments like schools, colleges, and office premises.",
-          "Created custom libraries for reusable components, improving the scalability and maintainability of the application.",
-          "Implemented Spring Boot and MySQL on the backend to manage device data and handle resource placement in the industrial or office blueprint.",
-          "Integrated WLAN-based device detection, allowing the system to automatically detect and display devices on a visual map of the area.",
-          "Developed features to automate lighting systems, including options to dim lights, change colors, control fan speeds, and set schedules for turning devices on/off.",
-          "Successfully deployed the application on office premises, ensuring real-time control and monitoring of IoT devices with full automation.",
-          "Recognized for project excellence with the 'Insta Winner' award for outstanding contributions and successful implementation."
-        ]
-      }
-    ]
-  },
-  {
-    "companyName": "Luminescent Digital",
-    "designation": "UI Developer",
-    "period": "Apr 2018 - Dec 2018",
-    "location": "Trivandrum, KL",
-    "contributions": [
-      "Built an interactive **ENOC** Annual Reports Platform using **React and Node.js**, resulting in a **25% boost in user engagement** through charts and responsive pages.",
-      "Ensured that the web application successfully met the client’s needs for showcasing products and **financial data, contributing to better customer visibility**."
-    ],
-    "works": [
-      {
-        "type": "Oil & Gas",
-        "projectName": "ENOC Reports",
-        "desc": "Emirates National Oil Company Limited (ENOC) L.L.C. is a leading integrated global oil and gas player operating across the energy sector value chain.",
-        "detailLists": [
-          "Developed an interactive web application to showcase ENOC products, yearly financial results, and other business operations like supply, trading, and energy resources.",
-          "Designed a fully responsive web application with an interactive UI and animations to enhance user engagement across all devices.",
-          "Utilized HTML, CSS, JavaScript, jQuery, Bootstrap, and custom icons to build a dynamic, single-page application for seamless user experience.",
-          "Delivered the application and provided ongoing support for maintaining and implementing changes as requested by the client.",
-          "Ensured that the web application successfully met the client’s needs for showcasing products and financial data, contributing to better customer visibility."
-        ]
-      }
-    ]
-  },
-  {
-    "companyName": "RM India",
-    "designation": "UI/UX Consultant",
-    "period": "Sept 2017 - Apr 2018",
-    "location": "Trivandrum, KL",
-    "contributions": [
-      "**Directed frontend development** for the **RM Assessor** digital marking platform, enhancing evaluation efficiency by **35%** through responsive design and interactive UI components.",
-      "Designed inclusive features to support **multi-language** assessments, increasing user adoption in global markets.",
-      "Deployed OCR-based tools that reduced paper-based marking processes, shortening turnaround **times by 20%**."
-    ],
-    "works": [
-      {
-        "type": "Education Services",
-        "projectName": "RM Assessor",
-        "desc": "RM Assessor is a digital marking platform that helps organizations mark assessments more efficiently and securely.",
-        "detailLists": [
-          "Developed an innovative e-marking platform to enable teachers and professors to digitally access and correct papers using an OCR-based tool with a wide range of features, improving the efficiency of the marking process by 35%.",
-          "Created a user-friendly e-marking web application using React, .NET, MySQL, and custom libraries, which enhanced accessibility and usability, resulting in 40% faster paper evaluation.",
-          "Integrated features such as digital question and answer rendering, the ability to add notes, mark corrections, zoom in/out, magnify, and navigate pages easily, improving evaluator productivity by 30%.",
-          "Added mock e-marking tutorials to familiarize users with the platform, reducing onboarding time by 25% and increasing user adoption.",
-          "Successfully delivered a highly interactive web-based application now used by schools and colleges for digital paper correction, enhancing the efficiency of teachers and evaluators by 50%."
-        ]
-      }
-    ]
-  },
-  {
-    "companyName": "NextGen TechEdge Solutions",
-    "designation": "Graphic / UI Designer",
-    "period": "May 2016 - Sept 2017",
-    "location": "Vaishali, UP",
-    "contributions": [
-      "Constructed a **responsive job portal** for **Jobdiagnosis**, boosting **cross-platform** performance and increasing job applications by **20%**.",
-      "Transformed the frontend using **JavaScript and jQuery**, **optimizing load times by 25%** and enhancing user interactions, **resulting in a 20%** improvement in user engagement."
-    ],
-    "works": [
-      {
-        "type": "Job Portal Services",
-        "projectName": "Jobdiagnosis",
-        "desc": "JobDiagnosis is an international job posting site that job seekers can use to locate new job opportunities around the world. The website collects postings from other job sites to make them easier for candidates to find.",
-        "detailLists": [
-          "Developed a US-based job portal to improve job matching between candidates and employers, enhancing user experience and increasing job application rates by 20%.",
-          "Managed both frontend and backend development of the portal using JavaScript, HTML, PHP, and MySQL, ensuring smooth data flow and accurate job listings.",
-          "Created various UI modules for a native mobile application built with Angular and Ionic, improving mobile user experience and driving a 15% increase in engagement.",
-          "Optimized performance across web and mobile platforms, resulting in a 15% increase in overall user engagement and a consistent cross-platform experience."
-        ]
-      }
-    ]
-  },
-  {
-    "companyName": "Blasterwaves Technologies",
-    "designation": "Web Developer",
-    "period": "Sept 2015 - May 2016",
-    "location": "Karaikal, PY",
-    "contributions": [
-      "Created interactive web modules for Northeast Sports Network, improving video streaming access and user retention.",
-      "Applied responsive design strategies, **boosting mobile traffic by 15%**."
-    ],
-    "works": [
-      {
-        "type": "Web Services",
-        "projectName": "Northeast Sports Network",
-        "desc": "Northeast Sports Network is the premier sports website featuring state or the art live video streaming technology, on demand video, game articles, featured columns, photos, message boards, blogs, and more.",
-        "detailLists": [
-          "Developed a CMS-based WordPress website to handle email templates, product listings, and filtering modules for improved user experience and content management.",
-          "Created web templates, email marketing designs, and digital banners to enhance branding and improve client engagement.",
-          "Implemented email templates, product listings, and filtering modules in the CMS-based WordPress website to streamline content management.",
-          "Boosted client engagement by 20% through visually impactful designs and improved user interactions.",
-          "Enhanced branding impact by delivering a cohesive online presence, resulting in better visibility and recognition."
-        ]
-      }
-    ]
-  }
-]
+  [
+    {
+      "companyName": "HCLTech",
+      "designation": "Senior Technical Lead",
+      "period": "June 2021 - Present",
+      "location": "Chennai, TN",
+      "contributions": [
+        "Enhanced platform **accessibility by integrating a11y features** to achieve compliance with **WCAG 2.1 standards**; boosted the site’s overall accessibility **score from 70% to over 87%**, ensuring better **user experiences** for all.",
+        "**Led the frontend development** of a custom Media Acquisition Portal (MAP) using **React.js** and **Material UI**, improving **UI performance by 40%** and increasing user satisfaction by **40%**.",
+        "Engineered a robust set of **reusable component libraries**, accelerating feature **development cycles by 40%** and achieving a significant reduction in code duplication, ultimately lowering maintenance efforts across the project.",
+        "Spearheaded the integration of **AWS services** to enhance data storage efficiency, improving data retrieval speeds by **25%**.",
+        "Collaborated with backend teams to integrate **RESTful APIs**, reducing API response times by **30%**.",
+        "**Mentored and guided 5 frontend developers**, fostering best coding practices and improving code review efficiency."
+      ],
+      "works": [
+        {
+          "type": "Media & Entertainment",
+          "projectName": "NBCUniversal (Media Acquisition Portal)",
+          "desc": "Media Acquisition Portal (MAP) is a solution for managing media requests, allowing users to create and process forms for tasks like downloading, scheduling, sending, and deleting media clips.",
+          "detailLists": [
+            "Led the development of a custom Form Portal and Dashboard Portal to replace the third-party Microsoft Forms solution, enabling greater control and scalability.",
+            "Replicated and enhanced existing functionality from the third-party service, resulting in a 40% increase in user satisfaction.",
+            "Developed the frontend using React.js and Material UI, delivering a modern, responsive interface and improving UI performance by 40%.",
+            "Built backend APIs using Java Spring Boot, reducing API response times by 30% for faster data processing.",
+            "Integrated AWS DynamoDB for efficient, scalable data storage, improving data retrieval speed by 25%.",
+            "Implemented unit testing with Jest and React Testing Library, achieving 95% test coverage and ensuring high application reliability.",
+            "Added advanced features like form validation, user preferences, bulk actions, row pinning, file attachments, and advanced search, increasing feature set by 50%.",
+            "Optimized app performance through code splitting and lazy loading, reducing page load times by 40% and enhancing overall speed.",
+            "Delivered a cost-effective solution, saving the client 30% annually by removing third-party dependencies.",
+            "Enhanced application speed and responsiveness, resulting in 40% faster load times and improved user engagement."
+          ]
+        },
+        {
+          "type": "Banking & Finance",
+          "projectName": "Oaknorth Bank",
+          "desc": "Oaknorth Lending App is a responsive banking web application designed to manage various account types, including Business Loans, Personal Savings, Fixed-Term Deposits.",
+          "detailLists": [
+            "Developed a responsive banking web application focused on a lending portal, serving multiple account types, including Business Loans, Personal Savings, Fixed-Term Deposits (FTD), Non-Resident Accounts (NA), Educational Accounts (EA), and Educational & Institutional Savings Accounts (EAISA).",
+            "Built the frontend using React and TypeScript, ensuring a 100% mobile and desktop responsive design, resulting in a 35% improvement in user engagement on mobile devices.",
+            "Integrated Java Spring Boot for backend APIs and used PostgreSQL for data management, achieving a 40% faster data retrieval time and ensuring scalable performance.",
+            "Ensured full a11y compliance, integrating accessibility features that met the country’s policy requirements, improving accessibility score by 25%.",
+            "Leveraged various libraries and tools for UI management, resulting in a 20% faster load time and smoother user interactions.",
+            "Successfully deployed the application for commercial use by bank employees, meeting all client needs for speed, responsiveness, user-friendliness, a11y compliance, and security, leading to 98% satisfaction from the bank’s employees."
+          ]
+        },
+        {
+          "type": "Biotech & Pharma",
+          "projectName": "Genentech Clinical Trials",
+          "desc": "Genentech Clinical Trials is a web application that allows patients to schedule online appointments, receive doctor advice, and track their health and medical history.",
+          "detailLists": [
+            "Developed a clinical trial web application that allows patients to schedule online appointments and receive advice from doctors, while tracking patient health and medical history.",
+            "Built the frontend using React and TypeScript, ensuring the application is 100% responsive across all devices, improving accessibility and user engagement by 30%.",
+            "Implemented Chart.js for visualizing patient health data, enabling doctors to track and monitor patient progress with interactive graphical representations.",
+            "Used Redux for efficient state management, ensuring smooth data flow across the application and improving load times by 25%.",
+            "Created a module for patients to log in, book appointments with doctors, and engage in virtual consultations through third-party libraries for seamless video/audio calls.",
+            "Integrated a secure prescription module where doctors can provide prescriptions, ensuring end-to-end encryption for patient data.",
+            "Developed key features like virtual meeting scheduling, health status monitoring, prescription management, and audio calls, leading to a 40% improvement in user interaction.",
+            "Fully tested the application using React Testing Library and Enzyme, ensuring 95% test coverage and application reliability."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "Infosys",
+      "designation": "Technology Analyst",
+      "period": "Jan 2019 - May 2021",
+      "location": "Trivandrum, KL",
+      "contributions": [
+        "Crafted **responsive banking web apps** for Oaknorth Bank using **React** and **TypeScript**, enhancing mobile **user engagement by 35%**.",
+        "Collaborated with designers and stakeholders to revamp the UI/UX, leading to a **20% improvement in usability and client retention**.",
+        "Facilitated sprint planning, daily stand-ups, and retrospectives, ensuring efficient Agile processes and timely project deliveries."
+      ],
+      "works": [
+        {
+          "type": "IoT Services",
+          "projectName": "Eaton Trellix",
+          "desc": "Trellix Smart Spaces IoT Platform centralizes data from Wavelinx Area Controllers, manages alarms and users, and integrates with third-party systems via BACnet/IP and REST APIs. It automates control of electrical devices in industrial and office environments.",
+          "detailLists": [
+            "Developed an interactive IoT-enabled web application to digitalize and manage electrical components like lights, fans, and other devices in industries and offices, automating lighting systems.",
+            "Built the frontend using Angular to handle installation, uninstallation, device detection, and resource management across large-scale environments like schools, colleges, and office premises.",
+            "Created custom libraries for reusable components, improving the scalability and maintainability of the application.",
+            "Implemented Spring Boot and MySQL on the backend to manage device data and handle resource placement in the industrial or office blueprint.",
+            "Integrated WLAN-based device detection, allowing the system to automatically detect and display devices on a visual map of the area.",
+            "Developed features to automate lighting systems, including options to dim lights, change colors, control fan speeds, and set schedules for turning devices on/off.",
+            "Successfully deployed the application on office premises, ensuring real-time control and monitoring of IoT devices with full automation.",
+            "Recognized for project excellence with the 'Insta Winner' award for outstanding contributions and successful implementation."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "Luminescent Digital",
+      "designation": "UI Developer",
+      "period": "Apr 2018 - Dec 2018",
+      "location": "Trivandrum, KL",
+      "contributions": [
+        "Built an interactive **ENOC** Annual Reports Platform using **React and Node.js**, resulting in a **25% boost in user engagement** through charts and responsive pages.",
+        "Ensured that the web application successfully met the client’s needs for showcasing products and **financial data, contributing to better customer visibility**."
+      ],
+      "works": [
+        {
+          "type": "Oil & Gas",
+          "projectName": "ENOC Reports",
+          "desc": "Emirates National Oil Company Limited (ENOC) L.L.C. is a leading integrated global oil and gas player operating across the energy sector value chain.",
+          "detailLists": [
+            "Developed an interactive web application to showcase ENOC products, yearly financial results, and other business operations like supply, trading, and energy resources.",
+            "Designed a fully responsive web application with an interactive UI and animations to enhance user engagement across all devices.",
+            "Utilized HTML, CSS, JavaScript, jQuery, Bootstrap, and custom icons to build a dynamic, single-page application for seamless user experience.",
+            "Delivered the application and provided ongoing support for maintaining and implementing changes as requested by the client.",
+            "Ensured that the web application successfully met the client’s needs for showcasing products and financial data, contributing to better customer visibility."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "RM India",
+      "designation": "UI/UX Consultant",
+      "period": "Sept 2017 - Apr 2018",
+      "location": "Trivandrum, KL",
+      "contributions": [
+        "**Directed frontend development** for the **RM Assessor** digital marking platform, enhancing evaluation efficiency by **35%** through responsive design and interactive UI components.",
+        "Designed inclusive features to support **multi-language** assessments, increasing user adoption in global markets.",
+        "Deployed OCR-based tools that reduced paper-based marking processes, shortening turnaround **times by 20%**."
+      ],
+      "works": [
+        {
+          "type": "Education Services",
+          "projectName": "RM Assessor",
+          "desc": "RM Assessor is a digital marking platform that helps organizations mark assessments more efficiently and securely.",
+          "detailLists": [
+            "Developed an innovative e-marking platform to enable teachers and professors to digitally access and correct papers using an OCR-based tool with a wide range of features, improving the efficiency of the marking process by 35%.",
+            "Created a user-friendly e-marking web application using React, .NET, MySQL, and custom libraries, which enhanced accessibility and usability, resulting in 40% faster paper evaluation.",
+            "Integrated features such as digital question and answer rendering, the ability to add notes, mark corrections, zoom in/out, magnify, and navigate pages easily, improving evaluator productivity by 30%.",
+            "Added mock e-marking tutorials to familiarize users with the platform, reducing onboarding time by 25% and increasing user adoption.",
+            "Successfully delivered a highly interactive web-based application now used by schools and colleges for digital paper correction, enhancing the efficiency of teachers and evaluators by 50%."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "NextGen TechEdge Solutions",
+      "designation": "Graphic / UI Designer",
+      "period": "May 2016 - Sept 2017",
+      "location": "Vaishali, UP",
+      "contributions": [
+        "Constructed a **responsive job portal** for **Jobdiagnosis**, boosting **cross-platform** performance and increasing job applications by **20%**.",
+        "Transformed the frontend using **JavaScript and jQuery**, **optimizing load times by 25%** and enhancing user interactions, **resulting in a 20%** improvement in user engagement."
+      ],
+      "works": [
+        {
+          "type": "Job Portal Services",
+          "projectName": "Jobdiagnosis",
+          "desc": "JobDiagnosis is an international job posting site that job seekers can use to locate new job opportunities around the world. The website collects postings from other job sites to make them easier for candidates to find.",
+          "detailLists": [
+            "Developed a US-based job portal to improve job matching between candidates and employers, enhancing user experience and increasing job application rates by 20%.",
+            "Managed both frontend and backend development of the portal using JavaScript, HTML, PHP, and MySQL, ensuring smooth data flow and accurate job listings.",
+            "Created various UI modules for a native mobile application built with Angular and Ionic, improving mobile user experience and driving a 15% increase in engagement.",
+            "Optimized performance across web and mobile platforms, resulting in a 15% increase in overall user engagement and a consistent cross-platform experience."
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "Blasterwaves Technologies",
+      "designation": "Web Developer",
+      "period": "Sept 2015 - May 2016",
+      "location": "Karaikal, PY",
+      "contributions": [
+        "Created interactive web modules for Northeast Sports Network, improving video streaming access and user retention.",
+        "Applied responsive design strategies, **boosting mobile traffic by 15%**."
+      ],
+      "works": [
+        {
+          "type": "Web Services",
+          "projectName": "Northeast Sports Network",
+          "desc": "Northeast Sports Network is the premier sports website featuring state or the art live video streaming technology, on demand video, game articles, featured columns, photos, message boards, blogs, and more.",
+          "detailLists": [
+            "Developed a CMS-based WordPress website to handle email templates, product listings, and filtering modules for improved user experience and content management.",
+            "Created web templates, email marketing designs, and digital banners to enhance branding and improve client engagement.",
+            "Implemented email templates, product listings, and filtering modules in the CMS-based WordPress website to streamline content management.",
+            "Boosted client engagement by 20% through visually impactful designs and improved user interactions.",
+            "Enhanced branding impact by delivering a cohesive online presence, resulting in better visibility and recognition."
+          ]
+        }
+      ]
+    }
+  ]

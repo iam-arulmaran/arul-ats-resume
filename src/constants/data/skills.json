@@ -1,16 +1,5 @@
 {
   "frontend": ["React", "Angular", "JavaScript", "TypeScript", "HTML5", "CSS3"],
-  "stateManagement": ["Redux", "RxJS"],
-  "uxDesign": ["Figma", "Adobe Creative Cloud (Prototyping & Design Systems)"],
-  "testing": [
-    "RTL",
-    "Jest",
-    "Jasmine",
-    "Karma",
-    "Enzyme",
-    "SonarQube",
-    "Unit Testing"
-  ],
   "backend": [
     "Core Java",
     "Spring Boot",
@@ -20,6 +9,16 @@
     "RESTful APIs",
     "Microservices"
   ],
+  "stateManagement": ["Redux", "RxJS"],
+  "testing": [
+    "RTL",
+    "Jest",
+    "Jasmine",
+    "Karma",
+    "Enzyme",
+    "SonarQube",
+    "Unit Testing"
+  ],
   "database": ["MongoDB", "PostgreSQL", "MySQL", "S3", "DynamoDB"],
   "cloudAndDatabases": [
     "AWS",
@@ -28,5 +27,6 @@
     "Git",
     "Bitbucket",
     "Agile/Scrum methodologies"
-  ]
+  ],
+  "uxDesign": ["Figma", "Adobe Creative Cloud (Prototyping & Design Systems)"]
 }

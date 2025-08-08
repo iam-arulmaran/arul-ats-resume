@@ -23,7 +23,7 @@ import { launch } from 'puppeteer';
 
   // 2. Generate the PDF with custom dimensions
   await page.pdf({
-    path: 'my-resume.pdf',       // Output file name
+    path: 'arulmaran-sr-angular-dev-resume.pdf',       // Output file name
     width: '1240px',             // Set PDF width exactly to your webpage width
     height: '4108px',            // Set PDF height exactly to your webpage height
     printBackground: true,       // Crucial for preserving background colors and images

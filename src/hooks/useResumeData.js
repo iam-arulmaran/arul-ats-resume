@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { API_RESUME_URL } from '../constants/common';
-import resumeJsonData from "../constants/data/resume.json";
+// import { API_RESUME_URL } from '../constants/common';
+import resumeJsonData from "../constants/data/hclAngularResume.json";
 
 const RESUME_CACHE_KEY = 'resumeData';
 const CACHE_EXPIRY_MS = 1000 * 60 * 60; // 1 hour
@@ -30,26 +30,34 @@ export default function useResumeData() {
       }
     }
 
+    // Forcefully set the backed data
+    localStorage.setItem(
+      RESUME_CACHE_KEY,
+      JSON.stringify({ timestamp: Date.now(), resumeJsonData })
+    );
+    setResumeData(resumeJsonData);
+    setLoading(false);
+
     // Fetch fresh data if no cache or expired
-    fetch(API_RESUME_URL)
-      .then(res => res.json())
-      .then(data => {
-        localStorage.setItem(
-          RESUME_CACHE_KEY,
-          JSON.stringify({ timestamp: Date.now(), data })
-        );
-        setResumeData(data);
-        setLoading(false);
-      })
-      .catch(err => {
-        // localStorage.setItem(
-        //   RESUME_CACHE_KEY,
-        //   JSON.stringify({ timestamp: Date.now(), resumeJsonData })
-        // );
-        setResumeData(resumeJsonData);
-        setLoading(false);
-        console.error('Failed to fetch resume data:', err);
-      });
+    // fetch(API_RESUME_URL)
+    //   .then(res => res.json())
+    //   .then(data => {
+    //     localStorage.setItem(
+    //       RESUME_CACHE_KEY,
+    //       JSON.stringify({ timestamp: Date.now(), data })
+    //     );
+    //     setResumeData(data);
+    //     setLoading(false);
+    //   })
+    //   .catch(err => {
+    //     // localStorage.setItem(
+    //     //   RESUME_CACHE_KEY,
+    //     //   JSON.stringify({ timestamp: Date.now(), resumeJsonData })
+    //     // );
+    //     setResumeData(resumeJsonData);
+    //     setLoading(false);
+    //     console.error('Failed to fetch resume data:', err);
+    //   });
   }, []);
 
   return { resumeData, loading };

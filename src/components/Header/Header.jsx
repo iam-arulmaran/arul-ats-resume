@@ -1,8 +1,8 @@
 import "./Header.scss";
 import MailIcon from "@mui/icons-material/Mail";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+// import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SmartphoneIcon from "@mui/icons-material/Smartphone";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import profile from "../../constants/data/profile.json";
 
 export function Header({data}) {
@@ -11,8 +11,8 @@ export function Header({data}) {
     fullName,
     jobDesignation,
     jobTitle,
-    linkedIn,
-    location,
+    // linkedIn,
+    // location,
     phone,
   } = data[0] || profile;
   return (
@@ -30,14 +30,14 @@ export function Header({data}) {
           <SmartphoneIcon />
           {phone}
         </a>
-        <a href="https://g.co/kgs/QaCPLhA" target="_blank">
+        {/* <a href="https://g.co/kgs/QaCPLhA" target="_blank">
           <LocationOnIcon />
           {location}
-        </a>
-        <a href={linkedIn.link} target="_blank">
+        </a> */}
+        {/* <a href={linkedIn.link} target="_blank">
           <LinkedInIcon />
           {linkedIn.name}
-        </a>
+        </a> */}
       </div>
     </section>
   );

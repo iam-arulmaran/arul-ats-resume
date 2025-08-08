@@ -20,7 +20,7 @@ const RenderEducations = ({ educationDetails = eduDetails }) => {
         <div className="sub-heading">
           {edu.courseName} -
           <span className="light">
-            {edu.university} | <i>{edu.graduatedOn}</i>
+            {edu.university}
           </span>
         </div>
       </div>

@@ -30,3 +30,6 @@ export const SKILL_TITLES = {
 
 
 export const API_RESUME_URL = "https://resume-backend-rixg.onrender.com/api/resume";
+
+
+export const IS_DEV = true;

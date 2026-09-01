@@ -1,15 +1,19 @@
 import { useEffect, useState } from 'react';
-import { API_RESUME_URL } from '../constants/common';
+import { API_RESUME_URL, IS_DEV } from '../constants/common';
 import resumeJsonData from "../constants/data/resume.json";
 
 const RESUME_CACHE_KEY = 'resumeData';
 const CACHE_EXPIRY_MS = 1000 * 60 * 60; // 1 hour
 
 export default function useResumeData() {
-  const [resumeData, setResumeData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [resumeData, setResumeData] = useState(IS_DEV ? resumeJsonData : null);
+  const [loading, setLoading] = useState(!IS_DEV);
 
   useEffect(() => {
+    if (IS_DEV) {
+      return; // Skip useEffect when in development mode
+    }
+
     const cached = localStorage.getItem(RESUME_CACHE_KEY);
 
     if (cached) {
@@ -42,10 +46,6 @@ export default function useResumeData() {
         setLoading(false);
       })
       .catch(err => {
-        // localStorage.setItem(
-        //   RESUME_CACHE_KEY,
-        //   JSON.stringify({ timestamp: Date.now(), resumeJsonData })
-        // );
         setResumeData(resumeJsonData);
         setLoading(false);
         console.error('Failed to fetch resume data:', err);

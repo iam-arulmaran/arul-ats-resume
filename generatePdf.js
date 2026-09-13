@@ -8,13 +8,13 @@ import { launch } from 'puppeteer';
   // This ensures the page is rendered at your desired resolution before PDF conversion
   await page.setViewport({
     width: 1240, // Your webpage width
-    height: 4108, // Your webpage height
+    height: 1754, // Your webpage height
     deviceScaleFactor: 1, // Keep at 1 unless you explicitly want to scale up/down
   });
 
   // IMPORTANT: Use the exact URL where your Vite build is served
-  // from 'npm run preview' (e.g., http://localhost:4173/)
-  const websiteUrl = 'http://localhost:4173/arul-ats-resume'; // <<-- REPLACE WITH YOUR ACTUAL URL
+  // from 'npm run preview' (e.g., http://localhost:5173/)
+  const websiteUrl = 'http://localhost:5173/arul-ats-resume'; // <<-- REPLACE WITH YOUR ACTUAL URL
 
   await page.goto(websiteUrl, {
     waitUntil: 'networkidle0', // Wait until network activity is minimal (all content loaded)
@@ -25,7 +25,7 @@ import { launch } from 'puppeteer';
   await page.pdf({
     path: 'my-resume.pdf',       // Output file name
     width: '1240px',             // Set PDF width exactly to your webpage width
-    height: '4108px',            // Set PDF height exactly to your webpage height
+    height: '1754px',            // Set PDF height exactly to your webpage height
     printBackground: true,       // Crucial for preserving background colors and images
     pageRanges: '1',             // Ensures only the first (and only) page is printed
     margin: {                    // Set all margins to zero to avoid extra whitespace

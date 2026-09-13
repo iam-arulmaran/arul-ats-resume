@@ -4,11 +4,11 @@ import { Section } from "../../util-components/Section/Section";
 import { SectionHeading } from "../../util-components/SectionHeading/SectionHeading";
 import awardsDetails from "../../constants/data/awards.json";
 
-export function Awards({data}) {
+export function Awards({ data }) {
   return (
     <Section extraClasses="awards-main">
       <SectionHeading title={HEADINGS.AWARDS} />
-      <RenderAwards awards={data}/>
+      <RenderAwards awards={data} />
     </Section>
   );
 }

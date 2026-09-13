@@ -1,7 +1,7 @@
 export const HEADINGS = {
-  SUMMARY: "Professional Summary",
-  SKILLS: "Core Competencies",
-  EXPERIENCE: "Professional Experience",
+  SUMMARY: "Summary",
+  SKILLS: "Skills",
+  EXPERIENCE: "Experience",
   PROJECTS: "Projects",
   EDUCATION: "Education",
   CERTIFICATION: "Certification",
@@ -18,14 +18,13 @@ export const TECHNICAL_SKILLS = {
 };
 
 export const SKILL_TITLES = {
-  frontend: "Frontend",
-  stateManagement: "State Management",
-  uxDesign: "UX Design",
-  testing: "Testing",
-  backend: "Backend",
-  apisAndArchitecture: "APIs & Architecture",
-  cloudAndDatabases: "DevOps & Cloud",
-  database: "Database",
+  officeTools: "Office Tools",
+  customerService: "Customer Service",
+  administration: "Administration",
+  documentationAndRecords: "Documentation & Records",
+  dataManagement: "Data Management",
+  officeOperations: "Office Operations",
+  communication: "Communication",
 };
 
 

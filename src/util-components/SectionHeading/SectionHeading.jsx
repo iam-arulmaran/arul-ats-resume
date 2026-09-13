@@ -1,4 +1,4 @@
-import "./SectionHeading.scss"; 
-export function SectionHeading({title}) {
-  return <div className="section-heading-container">{title}</div>;
+import "./SectionHeading.scss";
+export function SectionHeading({ title }) {
+  return <div className="section-heading-container">{title.toUpperCase()}</div>;
 }
